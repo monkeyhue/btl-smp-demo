@@ -1,0 +1,34 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "btl:temp"
+    },
+    "ops": [
+      {
+        "source": "lootBasePower",
+        "target": "btl.power",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "desc.btl.power",
+        "color": "dark_gray",
+        "italic": false,
+        "extra": [
+          {
+            "nbt": "lootBasePower",
+            "storage": "btl:temp",
+            "color": "#83FFFF"
+          }
+        ]
+      }
+    ]
+  }
+]

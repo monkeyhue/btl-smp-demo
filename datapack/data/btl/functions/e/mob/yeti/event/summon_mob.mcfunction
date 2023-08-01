@@ -1,0 +1,1 @@
+summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,Tags:["btl.entity","btl.temp","btl.t.yeti_spawner"]}

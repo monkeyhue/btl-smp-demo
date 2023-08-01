@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{btl:{power:100,id:\"empty\"},CustomModelData:6540000}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "desc.btl.power",
+                  "color": "dark_gray",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "nbt": "lootBasePower",
+                      "storage": "btl:temp",
+                      "color": "#83FFFF"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "function": "minecraft:copy_nbt",
+              "source": {
+                "type": "minecraft:storage",
+                "source": "btl:temp"
+              },
+              "ops": [
+                {
+                  "source": "lootBasePower",
+                  "target": "btl.power",
+                  "op": "replace"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

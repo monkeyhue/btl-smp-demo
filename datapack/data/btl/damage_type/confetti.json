@@ -1,0 +1,6 @@
+{
+	"message_id": "tbd.tricksy.confetti",
+	"effects": "burning",
+	"exhaustion": 0.1,
+	"scaling": "always"
+}

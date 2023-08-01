@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "hit": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:interaction",
+              "nbt": "{Tags:[\"btl.block\",\"btl.b.doorframe\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hit"
+    ]
+  ],
+  "rewards": {
+    "function": "btl:e/player/event/block/hit_doorframe"
+  },
+  "sends_telemetry_event": false
+}

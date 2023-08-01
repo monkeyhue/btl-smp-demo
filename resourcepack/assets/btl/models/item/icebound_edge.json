@@ -1,0 +1,42 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "btl:item/icebound_edge"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 55],
+			"translation": [0, 27, -4],
+			"scale": [3, 3, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -55],
+			"translation": [0, 27, -4],
+			"scale": [3, 3, 0.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 25],
+			"translation": [7, 20, 0],
+			"scale": [3, 3, 0.68]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -25],
+			"translation": [7, 20, 0],
+			"scale": [3, 3, 0.68]
+		},
+		"ground": {
+			"translation": [8, 11, 0],
+			"scale": [1.6, 1.6, 0.5]
+		},
+		"gui": {
+			"translation": [-8, 24, 0],
+			"scale": [4, 4, 1]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"translation": [-11.5, 11.5, 0],
+			"scale": [2.5, 2.5, 1]
+		}
+	}
+}

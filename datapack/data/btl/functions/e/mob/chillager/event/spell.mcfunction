@@ -1,0 +1,1 @@
+execute summon item_display run function btl:e/prj/mob/ice_chunk/init

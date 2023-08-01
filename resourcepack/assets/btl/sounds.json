@@ -1,0 +1,74 @@
+{
+	"ui.error": {
+		"sounds": [
+			{
+				"name": "btl:ui/error"
+			}
+		]
+	},
+	"music.bonus.fight_01": {
+		"sounds": [
+			{
+				"name": "btl:music/bonus_wave/fight_01",
+				"preload": true,
+				"streaming": true
+			}
+		]
+	},
+	"music.blue.boss": {
+		"sounds": [
+			{
+				"name": "btl:music/blue/boss",
+				"preload": true,
+				"streaming": true
+			}
+		]
+	},
+	"fx.bonus.start": {
+		"sounds": [
+			{
+				"name": "btl:event/bonus_wave/start"
+			}
+		]
+	},
+	"item.icebound_edge.swing": {
+		"sounds": [
+			{
+				"name": "btl:item/icebound_edge/icecrunch_1"},
+				{"name": "btl:item/icebound_edge/icecrunch_2"},
+				{"name": "btl:item/icebound_edge/icecrunch_3"
+			}
+		]
+	},
+	"entity.yeti.grunt": {
+		"sounds": [
+			{
+				"name": "btl:entity/yeti/grunt/yeti1"},
+				{"name": "btl:entity/yeti/grunt/yeti2"},
+				{"name": "btl:entity/yeti/grunt/yeti3"
+			}
+		]
+	},
+	"entity.yeti.stomp": {
+		"sounds": [
+			{
+				"name": "btl:entity/yeti/stomp"
+			}
+		]
+	},
+	"entity.chillager.spell": {
+		"sounds": [
+			{
+				"name": "btl:entity/chillager/spell1"},
+				{"name": "btl:entity/chillager/spell2"
+			}
+		]
+	},
+	"entity.prj.ice_chunk.hit": {
+		"sounds": [
+			{
+				"name": "btl:entity/prj/ice_chunk/hit1"
+			}
+		]
+	}
+}

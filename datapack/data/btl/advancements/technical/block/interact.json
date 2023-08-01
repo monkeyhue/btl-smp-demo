@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "touch": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:interaction",
+              "nbt": "{Tags:[\"btl.block\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "btl:e/player/event/block/interact"
+  },
+  "sends_telemetry_event": false
+}

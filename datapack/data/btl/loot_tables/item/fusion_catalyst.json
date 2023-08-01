@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:recovery_compass",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"item.btl.fusion_catalyst\",\"italic\":false}',Lore:['[{\"text\":\"\ua000 \",\"font\":\"btl:tooltip\",\"color\":\"white\",\"italic\":false},{\"translate\":\"btl.name\",\"font\":\"minecraft:default\",\"color\":\"#83FFFF\",\"italic\":true}]']},CustomModelData:6540006,btl:{fusioncat:1b,id:\"fusion_catalyst\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

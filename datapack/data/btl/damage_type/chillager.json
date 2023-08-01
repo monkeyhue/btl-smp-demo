@@ -1,0 +1,6 @@
+{
+	"message_id": "tbd.chillager",
+	"effects": "freezing",
+	"exhaustion": 0.1,
+	"scaling": "always"
+}

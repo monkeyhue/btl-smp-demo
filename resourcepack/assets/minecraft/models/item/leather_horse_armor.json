@@ -1,0 +1,13 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/leather_horse_armor"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data": 6540000}, "model": "btl:item/projectile/bomb"},
+		{"predicate": {"custom_model_data": 6540010}, "model": "btl:item/projectile/avalanche/ice"},
+		{"predicate": {"custom_model_data": 6540011}, "model": "btl:item/projectile/avalanche/snow"},
+		{"predicate": {"custom_model_data": 6540012}, "model": "btl:item/projectile/ice_chunk/summon"},
+		{"predicate": {"custom_model_data": 6540013}, "model": "btl:item/projectile/ice_chunk/fall"}
+	]
+}

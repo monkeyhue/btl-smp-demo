@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:block/furnace",
+  "overrides": [
+		{"predicate": {"custom_model_data": 6540001}, "model": "btl:item/stone_doorframe_1"},
+		{"predicate": {"custom_model_data": 6540002}, "model": "btl:item/stone_doorframe_2"},
+		{"predicate": {"custom_model_data": 6540003}, "model": "btl:item/stone_doorframe_3"},
+		{"predicate": {"custom_model_data": 6540004}, "model": "btl:item/fusion_pedestal"},
+		{"predicate": {"custom_model_data": 6540005}, "model": "btl:item/fusion_core"},
+		{"predicate": {"custom_model_data": 6540006}, "model": "btl:item/fusion_core_active"},
+		{"predicate": {"custom_model_data": 6540007}, "model": "btl:item/fusion_core_super"},
+		{"predicate": {"custom_model_data": 6540008}, "model": "btl:item/fusion_core_ultra"},
+		{"predicate": {"custom_model_data": 6540009}, "model": "btl:item/fusion_core_lucky"},
+		{"predicate": {"custom_model_data": 6540010}, "model": "btl:item/fusion_core_spicy"}
+	]
+}

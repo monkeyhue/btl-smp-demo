@@ -1,0 +1,6 @@
+{
+	"message_id": "tbd.snow_zombie",
+	"effects": "freezing",
+	"exhaustion": 0.2,
+	"scaling": "always"
+}

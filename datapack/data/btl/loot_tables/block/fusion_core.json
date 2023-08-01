@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:furnace",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"block.btl.fusion_core\",\"italic\":false}',Lore:['[{\"text\":\"\ua000 \",\"font\":\"btl:tooltip\",\"color\":\"white\",\"italic\":false},{\"translate\":\"btl.name\",\"font\":\"minecraft:default\",\"color\":\"#83FFFF\",\"italic\":true}]']},CustomModelData:6540005,btl:{block:{id:\"fusion_core\"}},BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:structure_void\",Count:1b,tag:{smithed:{block:{id:\"btl:fusion_core\",tag:{btl:{id:\"fusion_core\"}}}}}}]}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

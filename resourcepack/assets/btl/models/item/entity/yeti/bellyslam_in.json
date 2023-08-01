@@ -1,0 +1,6 @@
+{
+	"parent": "btl:item/entity/yeti/256",
+	"textures": {
+		"0": "btl:item/entity/yeti/bellyslam_in"
+	}
+}

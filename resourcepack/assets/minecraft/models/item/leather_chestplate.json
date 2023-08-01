@@ -1,0 +1,23 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/leather_chestplate",
+        "layer1": "item/leather_chestplate_overlay"
+	},
+	"overrides": [
+	
+		{"predicate": {"custom_model_data": 6540008, "damage": 0}, "model": "btl:item/entity/snow_zombie/walk"}, {"predicate": {"custom_model_data": 6540008, "damage": 0.0125}, "model": "btl:item/entity/snow_zombie/attack"}, {"predicate": {"custom_model_data": 6540008, "damage": 0.025}, "model": "btl:item/entity/snow_zombie/falling"}, {"predicate": {"custom_model_data": 6540008, "damage": 0.0375}, "model": "btl:item/entity/snow_zombie/land"},
+	
+		{"predicate": {"custom_model_data": 6540009, "damage": 0}, "model": "btl:item/entity/snow_skeleton/run"}, {"predicate": {"custom_model_data": 6540009, "damage": 0.0125}, "model": "btl:item/entity/snow_skeleton/hit1"}, {"predicate": {"custom_model_data": 6540009, "damage": 0.025}, "model": "btl:item/entity/snow_skeleton/hit2"}, {"predicate": {"custom_model_data": 6540009, "damage": 0.0375}, "model": "btl:item/entity/snow_skeleton/throw"},
+	
+		{"predicate": {"custom_model_data": 6540010, "damage": 0}, "model": "btl:item/entity/snowfiend/idle"}, {"predicate": {"custom_model_data": 6540010, "damage": 0.0125}, "model": "btl:item/entity/snowfiend/walk"}, {"predicate": {"custom_model_data": 6540010, "damage": 0.025}, "model": "btl:item/entity/snowfiend/attack"}, {"predicate": {"custom_model_data": 6540010, "damage": 0.0375}, "model": "btl:item/entity/snowfiend/defense_in"}, {"predicate": {"custom_model_data": 6540010, "damage": 0.05}, "model": "btl:item/entity/snowfiend/defense_walk"}, {"predicate": {"custom_model_data": 6540010, "damage": 0.0625}, "model": "btl:item/entity/snowfiend/defense_attack"}, {"predicate": {"custom_model_data": 6540010, "damage": 0.075}, "model": "btl:item/entity/snowfiend/falling"}, {"predicate": {"custom_model_data": 6540010, "damage": 0.0875}, "model": "btl:item/entity/snowfiend/land"},
+	
+		{"predicate": {"custom_model_data": 6540011, "damage": 0}, "model": "btl:item/entity/blizzy/move"}, {"predicate": {"custom_model_data": 6540011, "damage": 0.0125}, "model": "btl:item/entity/blizzy/blow"},
+	
+		{"predicate": {"custom_model_data": 6540012, "damage": 0}, "model": "btl:item/entity/chillager/idle"}, {"predicate": {"custom_model_data": 6540012, "damage": 0.0125}, "model": "btl:item/entity/chillager/run"}, {"predicate": {"custom_model_data": 6540012, "damage": 0.025}, "model": "btl:item/entity/chillager/spell"},
+	
+		{"predicate": {"custom_model_data": 6540013, "damage": 0}, "model": "btl:item/entity/snowbowler/idle"}, {"predicate": {"custom_model_data": 6540013, "damage": 0.0125}, "model": "btl:item/entity/snowbowler/walk"}, {"predicate": {"custom_model_data": 6540013, "damage": 0.025}, "model": "btl:item/entity/snowbowler/throw"}, {"predicate": {"custom_model_data": 6540013, "damage": 0.0375}, "model": "btl:item/entity/snowbowler/melee"},  {"predicate": {"custom_model_data": 6540013, "damage": 0.05}, "model": "btl:item/entity/snowbowler/create"},
+	
+		{"predicate": {"custom_model_data": 6540014, "damage": 0}, "model": "btl:item/entity/yeti/idle"}, {"predicate": {"custom_model_data": 6540014, "damage": 0.0125}, "model": "btl:item/entity/yeti/run"}, {"predicate": {"custom_model_data": 6540014, "damage": 0.025}, "model": "btl:item/entity/yeti/melee1"}, {"predicate": {"custom_model_data": 6540014, "damage": 0.0375}, "model": "btl:item/entity/yeti/big_slam"}, {"predicate": {"custom_model_data": 6540014, "damage": 0.05}, "model": "btl:item/entity/yeti/spin"},  {"predicate": {"custom_model_data": 6540014, "damage": 0.075}, "model": "btl:item/entity/yeti/jump_in"}, {"predicate": {"custom_model_data": 6540014, "damage": 0.0875}, "model": "btl:item/entity/yeti/jump_loop"}, {"predicate": {"custom_model_data": 6540014, "damage": 0.1}, "model": "btl:item/entity/yeti/bellyslam_in"}, {"predicate": {"custom_model_data": 6540014, "damage": 0.1125}, "model": "btl:item/entity/yeti/bellyslam_loop"}, {"predicate": {"custom_model_data": 6540014, "damage": 0.125}, "model": "btl:item/entity/yeti/bellyslam_out"}, {"predicate": {"custom_model_data": 6540014, "damage": 0.1375}, "model": "btl:item/entity/yeti/snowthrow"}
+	]
+}

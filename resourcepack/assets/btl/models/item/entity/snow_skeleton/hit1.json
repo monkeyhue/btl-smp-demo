@@ -1,0 +1,6 @@
+{
+	"parent": "btl:item/entity/snow_skeleton/128",
+	"textures": {
+		"0": "btl:item/entity/snow_skeleton/hit1"
+	}
+}

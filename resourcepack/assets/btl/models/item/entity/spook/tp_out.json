@@ -1,0 +1,6 @@
+{
+	"parent": "btl:item/entity/spook/128",
+	"textures": {
+		"0": "btl:item/entity/spook/tp_out"
+	}
+}

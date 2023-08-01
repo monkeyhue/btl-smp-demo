@@ -1,0 +1,6 @@
+{
+	"parent": "btl:item/portal/generic_128",
+	"textures": {
+		"0": "btl:item/portal/blue/happy"
+	}
+}

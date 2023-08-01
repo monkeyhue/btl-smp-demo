@@ -1,0 +1,9 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "minecraft:item/egg"
+    },
+    "overrides": [
+		{"predicate": {"custom_model_data": 6540000}, "model": "btl:item/empty"}
+    ]
+}
