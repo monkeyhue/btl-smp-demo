@@ -1,6 +1,0 @@
-{
-	"parent": "btl:item/portal/generic",
-	"textures": {
-		"0": "btl:item/portal/purple/closed"
-	}
-}

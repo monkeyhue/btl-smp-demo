@@ -1,0 +1,2 @@
+data modify storage smithed.actionbar:input message set value {json:'{"translate":"actionbar.btl.doorframe.hint","color": "gray","italic": "true"}',priority:'notification'}
+function #smithed.actionbar:message

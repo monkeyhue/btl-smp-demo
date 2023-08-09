@@ -1,5 +1,5 @@
 {
-	"message_id": "tbd.chillager",
+	"message_id": "btl.chillager",
 	"effects": "freezing",
 	"exhaustion": 0.1,
 	"scaling": "always"

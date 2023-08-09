@@ -1,6 +1,0 @@
-{
-	"parent": "btl:item/door/generic_64",
-	"textures": {
-		"0": "btl:item/door/default/closed"
-	}
-}

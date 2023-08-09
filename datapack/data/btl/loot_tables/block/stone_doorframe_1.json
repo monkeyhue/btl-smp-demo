@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"block.btl.doorframe_1\",\"italic\":false}',Lore:['[{\"text\":\"\ua000 \",\"font\":\"btl:tooltip\",\"color\":\"white\",\"italic\":false},{\"translate\":\"btl.name\",\"font\":\"minecraft:default\",\"color\":\"#83FFFF\",\"italic\":true}]']},CustomModelData:6540001,btl:{block:{id:\"stone_doorframe_1\"}},BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:structure_void\",Count:1b,tag:{smithed:{block:{id:\"btl:stone_doorframe_1\",tag:{btl:{doorframe:1b,id:\"stone_doorframe_1\"}}}}}}]}}"
+              "tag": "{display:{Name:'{\"translate\":\"block.btl.doorframe_1\",\"italic\":false}',Lore:['[{\"text\":\"\ua000 \",\"font\":\"btl:tooltip\",\"color\":\"white\",\"italic\":false},{\"translate\":\"btl.name\",\"font\":\"minecraft:default\",\"color\":\"#83FFFF\",\"italic\":true}]']},CustomModelData:6540001,btl:{block:{id:\"stone_doorframe_1\"}},BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:structure_void\",Count:1b,tag:{smithed:{block:{id:\"btl:stone_doorframe_1\",tag:{btl:{doorframe:1b,sockets:1,id:\"stone_doorframe_1\"}}}}}}]}}"
             }
           ]
         }

@@ -37,8 +37,14 @@
         { "predicate": { "angle": 0.921875 }, "model": "item/recovery_compass_14" },
         { "predicate": { "angle": 0.953125 }, "model": "item/recovery_compass_15" },
         { "predicate": { "angle": 0.984375 }, "model": "item/recovery_compass" },
+		{"predicate": {"custom_model_data": 6540000}, "model": "btl:item/dimensional_door"},
+		{"predicate": {"custom_model_data": 6540001}, "model": "btl:item/dimensional_log"},
+		{"predicate": {"custom_model_data": 6540002}, "model": "btl:item/fabric"},
 		{"predicate": {"custom_model_data": 6540006}, "model": "btl:item/fusion_catalyst"},
 		{"predicate": {"custom_model_data": 6540007}, "model": "btl:item/fusion_catalyst_super"},
-		{"predicate": {"custom_model_data": 6540008}, "model": "btl:item/fusion_catalyst_ultra"}
+		{"predicate": {"custom_model_data": 6540008}, "model": "btl:item/fusion_catalyst_ultra"},
+		{"predicate": {"custom_model_data": 6540009}, "model": "btl:item/silver_nugget"},
+		{"predicate": {"custom_model_data": 6540010}, "model": "btl:item/silver_ingot"},
+		{"predicate": {"custom_model_data": 6541001}, "model": "btl:item/portalstone_blue"}
     ]
 }

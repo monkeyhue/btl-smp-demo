@@ -2,7 +2,7 @@
 //https://github.com/Godlander/objmc
 
 //default lighting
-if (isCustom == 0) {color *= vertexColor * lightColor * ColorModulator;}
+if (isCustom == 0) {color *= vertexColor * ColorModulator;}
 //custom lighting
 else if (noshadow == 0) {
     //normal from position derivatives
@@ -23,5 +23,5 @@ else if (noshadow == 0) {
     color *= minecraft_mix_light(Light0_Direction, Light1_Direction, normal, overlayColor);
     #endif
 
-    color *= lightColor * ColorModulator;
+    color *= ColorModulator;
 }

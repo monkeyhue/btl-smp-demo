@@ -70,5 +70,22 @@
 				"name": "btl:entity/prj/ice_chunk/hit1"
 			}
 		]
+	},
+	"block.dimensional_door.spawn": {
+		"sounds": [
+			{
+				"name": "btl:block/door/put_door"
+			}
+		]
+	},
+	"block.dimensional_door.knock_wood": {
+	"sounds": [
+			{
+				"name": "btl:block/door/wood/knock1"},
+				{"name": "btl:block/door/wood/knock2"},
+				{"name": "btl:block/door/wood/knock3"},
+				{"name": "btl:block/door/wood/knock4"
+			}
+		]
 	}
 }

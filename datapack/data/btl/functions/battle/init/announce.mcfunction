@@ -1,0 +1,1 @@
+execute if score @s btl.w.battleID matches 1

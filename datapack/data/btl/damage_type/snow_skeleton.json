@@ -1,5 +1,5 @@
 {
-	"message_id": "tbd.snow_skeleton",
+	"message_id": "btl.snow_skeleton",
 	"effects": "freezing",
 	"exhaustion": 0.1,
 	"scaling": "always"

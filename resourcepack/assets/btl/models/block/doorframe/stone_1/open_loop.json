@@ -1,0 +1,6 @@
+{
+	"parent": "btl:block/doorframe/128",
+	"textures": {
+		"0": "btl:block/doorframe/stone_1/open_loop"
+	}
+}

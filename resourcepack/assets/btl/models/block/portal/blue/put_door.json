@@ -1,0 +1,6 @@
+{
+	"parent": "btl:block/portal/128",
+	"textures": {
+		"0": "btl:block/portal/blue/put_door"
+	}
+}

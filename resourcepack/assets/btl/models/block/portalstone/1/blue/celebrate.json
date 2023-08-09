@@ -1,0 +1,6 @@
+{
+	"parent": "btl:block/portalstone/1/128",
+	"textures": {
+		"0": "btl:block/portalstone/1/blue/celebrate"
+	}
+}

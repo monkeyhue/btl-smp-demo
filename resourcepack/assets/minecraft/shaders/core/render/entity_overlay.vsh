@@ -2,6 +2,7 @@
 
 #moj_import <light.glsl>
 #moj_import <fog.glsl>
+#moj_import <emissive_utils.glsl>
 
 in vec3 Position;
 in vec4 Color;
@@ -38,19 +39,43 @@ flat out int isGUI;
 flat out int isHand;
 flat out int noshadow;
 
+out vec4 maxLightColor;
+out float zpos;
+
+out vec4 iPositionV0;
+out vec4 iPositionV1;
+out vec4 iPositionV2;
+
+flat out vec3 iNormal;
+
 #moj_import <objmc_tools.glsl>
 
 void main() {
+    zpos = Position.z;
     Pos = Position;
     vec3 normal = (ProjMat * ModelViewMat * vec4(Normal, 0.0)).rgb;
     texCoord = UV0;
     overlayColor = texelFetch(Sampler1, UV1, 0);
-    vertexColor = minecraft_mix_light(Light0_Direction, Light1_Direction, Normal, Color);
     lightColor = minecraft_sample_lightmap(Sampler2, UV2);
+    vertexColor = minecraft_mix_light(Light0_Direction, Light1_Direction, Normal, Color);
+
+    maxLightColor = minecraft_sample_lightmap(Sampler2, ivec2(240.0, 240.0));
+    isGUI = int(isgui(ProjMat));
+    isHand = int(ishand(FogStart));
 
     //objmc
     #define ENTITY
     #moj_import <objmc_main.glsl>
+
+    iNormal = Normal;
+
+    iPositionV0 = vec4(0);
+    iPositionV1 = vec4(0);
+    iPositionV2 = vec4(0);
+
+    if (gl_VertexID % 4 == 0) iPositionV0 = vec4(Pos, 1.0);
+    if (gl_VertexID % 4 == 2) iPositionV1 = vec4(Pos, 1.0);
+    if (gl_VertexID % 2 == 1) iPositionV2 = vec4(Pos, 1.0);
 
     gl_Position = ProjMat * ModelViewMat * (vec4(Pos, 1.0));
     vertexDistance = fog_distance(ModelViewMat, IViewRotMat * Pos, FogShape);

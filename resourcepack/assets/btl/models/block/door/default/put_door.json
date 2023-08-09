@@ -1,0 +1,6 @@
+{
+	"parent": "btl:block/door/128",
+	"textures": {
+		"0": "btl:block/door/default/put_door"
+	}
+}

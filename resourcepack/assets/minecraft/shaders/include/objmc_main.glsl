@@ -186,6 +186,8 @@ if (markerPixel == ivec4(12,34,56,78) || markerPixel == ivec4(12,34,56,79)) {
             else {
                 posoffset = rotate(rotation) * posoffset * IViewRotMat;
             }
+        } else if (isGUI == 1) {
+            posoffset *= vec3(-16.0, -16.0, -16.0);
         }
     }
 #endif

@@ -50,13 +50,5 @@ execute if score @s monkeyhue.entity.hurtTime matches 10 on passengers run funct
 execute if score @s monkeyhue.entity.hurtTime matches 1 on passengers run function btl:e/display/unhurt1
 execute rotated as @s on passengers run tp @s ^ ^ ^ ~180 ~
 function btl:e/mob/main
-execute store result bossbar btl:yeti value run scoreboard players get @s monkeyhue.entity.health
-
-scoreboard players add @s monkeyhue.time4 1
-execute if score @s monkeyhue.time4 matches 1 run stopsound @a[distance=..64] music
-execute if score @s monkeyhue.time4 matches 2 run playsound btl:music.blue.boss music @a[distance=..64] ~ ~ ~ 1 1 1
-execute if score @s monkeyhue.time4 matches 2820.. run scoreboard players reset @s monkeyhue.time4
-
 scoreboard players add @s monkeyhue.time6 1
-execute if score @s monkeyhue.time6 matches 100 at @a[distance=..40] run function btl:e/mob/yeti/event/summon_mob
-execute if score @s monkeyhue.time6 matches 400 at @a[distance=..40] run function btl:e/mob/yeti/event/summon_mob
+execute store result bossbar btl:blue value run scoreboard players get @s monkeyhue.entity.health

@@ -45,7 +45,7 @@ ivec2 getvert(ivec2 topleft, int w, int h, int index, bool compressionEnabled) {
     }
 }
 
-ivec2 huv(int id) {
+ivec2 hid(int id) {
   if (id < 1056)
     return ivec2((32 + id % 32), (id/32));
   else
@@ -75,7 +75,7 @@ mat3 rotate(vec3 angles) {
 
 //gui item model detection from Onnowhere
 bool isgui(mat4 ProjMat) {
-    return ProjMat[2][3] == 0.0;
+    return abs(ProjMat[3][3]) > 0.01;
 }
 //first person hand item model detection from esben
 bool ishand(float FogStart) {

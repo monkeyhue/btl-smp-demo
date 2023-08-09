@@ -4,6 +4,8 @@
 		"layer0": "item/stone_sword"
 	},
 	"overrides": [
-		{"predicate": {"custom_model_data": 6540001}, "model": "btl:item/icebound_edge"}
+		{"predicate": {"custom_model_data": 6540001}, "model": "btl:item/katana"},
+		{"predicate": {"custom_model_data": 6540002}, "model": "btl:item/icebound_edge"},
+		{"predicate": {"custom_model_data": 6540003}, "model": "btl:item/frenzy_sword"}
 	]
 }

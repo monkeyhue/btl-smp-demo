@@ -1,0 +1,2 @@
+execute on passengers on passengers on passengers on passengers run function btl:b/door/interact/socket
+execute if score #btl.returnedItem monkeyhue.temp1 matches -1 on target run item modify entity @s weapon.mainhand btl:remove_1

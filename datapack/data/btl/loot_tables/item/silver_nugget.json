@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:recovery_compass",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"item.btl.silver_nugget\",\"italic\":false}',Lore:['[{\"text\":\"\ua000 \",\"font\":\"btl:tooltip\",\"color\":\"white\",\"italic\":false},{\"translate\":\"btl.name\",\"font\":\"minecraft:default\",\"color\":\"#83FFFF\",\"italic\":true}]']},CustomModelData:6540009,btl:{id:\"silver_nugget\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

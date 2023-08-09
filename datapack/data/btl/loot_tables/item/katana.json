@@ -1,0 +1,96 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{btl:{power:100,id:\"katana\",type:0,event:\"none\"},display:{Name:'{\"translate\":\"item.btl.katana\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:6540001,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:6,Operation:0,UUID:[I;1061269493,1220558934,-1238094162,1105651973],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.0,Operation:0,UUID:[I;1012308904,-1775744810,-1950450057,-543910567],Slot:\"mainhand\"}]}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "desc.btl.power",
+                  "color": "dark_gray",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "nbt": "lootBasePower",
+                      "storage": "btl:temp",
+                      "color": "#83FFFF"
+                    }
+                  ]
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "desc.btl.item.katana.part1",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "desc.btl.item.katana.part2",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "desc.btl.mainhand",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "desc.btl.attack_damage.7",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "translate": "desc.btl.attack_speed.20",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "translate": "\ua000 ",
+                  "color": "white",
+                  "font": "btl:tooltip",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "translate": "btl.name",
+                      "color": "#83FFFF",
+                      "font": "default",
+                      "italic": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "function": "minecraft:copy_nbt",
+              "source": {
+                "type": "minecraft:storage",
+                "source": "btl:temp"
+              },
+              "ops": [
+                {
+                  "source": "lootBasePower",
+                  "target": "btl.power",
+                  "op": "replace"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

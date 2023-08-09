@@ -1,6 +1,0 @@
-{
-	"parent": "btl:item/doorframe/generic_1028",
-	"textures": {
-		"0": "btl:item/doorframe/stone1/happy"
-	}
-}

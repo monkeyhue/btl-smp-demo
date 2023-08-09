@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------------------#
 execute unless score @s monkeyhue.tempAI matches 4 on passengers run data modify entity @s item.tag.Damage set value 4
-execute unless score @s monkeyhue.tempAI matches 4 run scoreboard players set %btl.animLength monkeyhue.objmc1 70
+execute unless score @s monkeyhue.tempAI matches 4 run scoreboard players set #btl.animLength monkeyhue.objmc1 70
 execute unless score @s monkeyhue.tempAI matches 4 on passengers run function btl:e/display/anim/gen
 execute unless score @s monkeyhue.tempAI matches 4 run scoreboard players reset @s monkeyhue.time2
 execute unless score @s monkeyhue.tempAI matches 4 facing entity @p eyes run tp @s ~ ~0.1 ~ ~ 0
