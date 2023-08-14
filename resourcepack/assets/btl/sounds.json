@@ -87,5 +87,20 @@
 				{"name": "btl:block/door/wood/knock4"
 			}
 		]
+	},
+	"block.dimensional_blender.vocalize": {
+	"sounds": [
+			{
+				"name": "btl:block/blender/vocal1"},
+				{"name": "btl:block/blender/vocal2"
+			}
+		]
+	},
+	"block.dimensional_blender.activate": {
+	"sounds": [
+			{
+				"name": "btl:block/blender/activate"
+			}
+		]
 	}
 }

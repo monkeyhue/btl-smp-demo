@@ -50,5 +50,7 @@ execute if score @s monkeyhue.entity.hurtTime matches 10 on passengers run funct
 execute if score @s monkeyhue.entity.hurtTime matches 1 on passengers run function btl:e/display/unhurt1
 execute rotated as @s on passengers run tp @s ^ ^ ^ ~180 ~
 function btl:e/mob/main
+execute if score @s monkeyhue.time1 matches 999999999.. run function btl:e/mob/despawn
+
 scoreboard players add @s monkeyhue.time6 1
 execute store result bossbar btl:blue value run scoreboard players get @s monkeyhue.entity.health

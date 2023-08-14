@@ -9,10 +9,6 @@ execute unless entity @s[nbt={Health:1024f}] run function btl:e/hitbox/main
 execute unless score @s monkeyhue.entity.AIState matches -1.. run function btl:e/mob/chillager/init
 
 #----- AI States -----#
-
-# Die
-execute if score @s monkeyhue.entity.AIState matches -1 run function btl:e/mob/chillager/state/die
-
 # Idle
 execute if score @s monkeyhue.entity.AIState matches 0 run function btl:e/mob/chillager/state/0
 
@@ -26,3 +22,7 @@ execute if score @s monkeyhue.entity.AIState matches 2 run function btl:e/mob/ch
 execute if score @s monkeyhue.entity.hurtTime matches 10 run function btl:e/mob/chillager/anim/hurt
 execute if score @s monkeyhue.entity.hurtTime matches 0 run function btl:e/display/unhurt_vehicle
 function btl:e/mob/main
+
+# Die
+execute if score @s monkeyhue.entity.AIState matches -1 run function btl:e/mob/chillager/state/die
+execute if score @s monkeyhue.time1 matches 1200.. run function btl:e/mob/despawn

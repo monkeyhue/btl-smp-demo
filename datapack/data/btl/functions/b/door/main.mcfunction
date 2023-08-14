@@ -29,3 +29,6 @@ execute if score @s monkeyhue.entity.AIState matches 4 run function btl:b/door/s
 
 # End Battle Pending (when loot chest is present)
 execute if score @s monkeyhue.entity.AIState matches 5 run function btl:b/door/state/5
+
+# Open Fail (when portalstones don't form a valid recipe)
+execute if score @s monkeyhue.entity.AIState matches 6 run function btl:b/door/state/6

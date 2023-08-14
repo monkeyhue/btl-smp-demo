@@ -6,4 +6,3 @@ setblock ~ ~ ~ air
 execute on passengers on passengers run function btl:b/fusion_pedestal/drop_item_destroyed
 execute on passengers run kill @s
 kill @s
-data remove entity @s attack

@@ -1,0 +1,24 @@
+data modify storage btl:temp ReturnedItem.power set from entity @s item.tag.data.tag.btl.power
+execute store result score @s btl.sum run data get storage btl:temp ReturnedItem.power
+
+#// Silver Nuggets
+function btl:technical/rng/5
+execute if score @s btl.sum matches 100.. if score @s monkeyhue.rng.out matches 0..3 run data modify storage btl:temp ReturnedItem.output append value {id:"minecraft:recovery_compass",Count:1b,tag:{display:{Name:'{"translate":"item.btl.silver_nugget","italic":false}',Lore:['[{"text":"\\ua000 ","font":"btl:tooltip","color":"white","italic":false},{"translate":"btl.name","font":"minecraft:default","color":"#83FFFF","italic":true}]']},CustomModelData:6540009,btl:{id:"silver_nugget"}}}
+execute if score @s btl.sum matches 100.. if score @s monkeyhue.rng.out matches 4 run data modify storage btl:temp ReturnedItem.output append value {id:"minecraft:recovery_compass",Count:1b,tag:{display:{Name:'{"translate":"item.btl.silver_nugget","italic":false}',Lore:['[{"text":"\\ua000 ","font":"btl:tooltip","color":"white","italic":false},{"translate":"btl.name","font":"minecraft:default","color":"#83FFFF","italic":true}]']},CustomModelData:6540009,btl:{id:"silver_nugget"}}}
+
+function btl:technical/rng/20
+execute if score @s btl.sum matches 180..399 if score @s monkeyhue.rng.out matches 0 run data modify storage btl:temp ReturnedItem.output append value {id:"minecraft:recovery_compass",Count:1b,tag:{display:{Name:'{"translate":"item.btl.fabric","italic":false}',Lore:['[{"text":"\\ua000 ","font":"btl:tooltip","color":"white","italic":false},{"translate":"btl.name","font":"minecraft:default","color":"#83FFFF","italic":true}]']},CustomModelData:6540002,btl:{id:"fabric"}}}
+execute if score @s btl.sum matches 400..799 if score @s monkeyhue.rng.out matches 0..1 run data modify storage btl:temp ReturnedItem.output append value {id:"minecraft:recovery_compass",Count:1b,tag:{display:{Name:'{"translate":"item.btl.fabric","italic":false}',Lore:['[{"text":"\\ua000 ","font":"btl:tooltip","color":"white","italic":false},{"translate":"btl.name","font":"minecraft:default","color":"#83FFFF","italic":true}]']},CustomModelData:6540002,btl:{id:"fabric"}}}
+execute if score @s btl.sum matches 800..1199 if score @s monkeyhue.rng.out matches 0..2 run data modify storage btl:temp ReturnedItem.output append value {id:"minecraft:recovery_compass",Count:1b,tag:{display:{Name:'{"translate":"item.btl.fabric","italic":false}',Lore:['[{"text":"\\ua000 ","font":"btl:tooltip","color":"white","italic":false},{"translate":"btl.name","font":"minecraft:default","color":"#83FFFF","italic":true}]']},CustomModelData:6540002,btl:{id:"fabric"}}}
+execute if score @s btl.sum matches 1200..1599 if score @s monkeyhue.rng.out matches 0..3 run data modify storage btl:temp ReturnedItem.output append value {id:"minecraft:recovery_compass",Count:1b,tag:{display:{Name:'{"translate":"item.btl.fabric","italic":false}',Lore:['[{"text":"\\ua000 ","font":"btl:tooltip","color":"white","italic":false},{"translate":"btl.name","font":"minecraft:default","color":"#83FFFF","italic":true}]']},CustomModelData:6540002,btl:{id:"fabric"}}}
+execute if score @s btl.sum matches 1600.. if score @s monkeyhue.rng.out matches 0..4 run data modify storage btl:temp ReturnedItem.output append value {id:"minecraft:recovery_compass",Count:1b,tag:{display:{Name:'{"translate":"item.btl.fabric","italic":false}',Lore:['[{"text":"\\ua000 ","font":"btl:tooltip","color":"white","italic":false},{"translate":"btl.name","font":"minecraft:default","color":"#83FFFF","italic":true}]']},CustomModelData:6540002,btl:{id:"fabric"}}}
+
+function btl:technical/rng/100
+execute if score @s btl.sum matches 250.. if score @s monkeyhue.rng.out matches 0..18 run data modify storage btl:temp ReturnedItem.output append value {id:"minecraft:recovery_compass",Count:1b,tag:{display:{Name:'{"translate":"item.btl.fusion_catalyst","italic":false}',Lore:['[{"text":"\\ua000 ","font":"btl:tooltip","color":"white","italic":false},{"translate":"btl.name","font":"minecraft:default","color":"#83FFFF","italic":true}]']},CustomModelData:6540006,btl:{fusioncat:1b,id:"fusion_catalyst"}}}
+execute if score @s btl.sum matches 250.. if score @s monkeyhue.rng.out matches 19 run data modify storage btl:temp ReturnedItem.output append value {id:"minecraft:recovery_compass",Count:1b,tag:{display:{Name:'{"translate":"item.btl.fusion_catalyst_super","italic":false}',Lore:['[{"text":"\\ua000 ","font":"btl:tooltip","color":"white","italic":false},{"translate":"btl.name","font":"minecraft:default","color":"#83FFFF","italic":true}]']},CustomModelData:6540007,btl:{fusioncat:1b,id:"fusion_catalyst_super"}}}
+
+data modify entity @s item.tag.output set from storage btl:temp ReturnedItem.output
+
+#scoreboard players reset @s btl.sum
+data remove storage btl:temp ReturnedItem
+data remove entity @s item.tag.data

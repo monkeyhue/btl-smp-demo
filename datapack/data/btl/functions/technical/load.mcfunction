@@ -25,6 +25,7 @@ scoreboard objectives add btl.w.progress dummy
 scoreboard objectives add btl.w.maxMobs dummy
 scoreboard objectives add btl.w.mobs dummy
 scoreboard objectives add btl.w.credits dummy
+scoreboard objectives add btl.w.penalty dummy
 
 #// Players
 scoreboard objectives add btl.p.incDmg dummy

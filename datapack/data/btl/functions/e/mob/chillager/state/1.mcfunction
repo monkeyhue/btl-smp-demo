@@ -23,4 +23,4 @@ execute if score @s monkeyhue.time3 matches 7 run playsound minecraft:entity.she
 execute if score @s monkeyhue.time3 matches 10.. run scoreboard players reset @s monkeyhue.time3
 
 execute if score @s monkeyhue.time2 matches ..32 if entity @p[distance=..10,gamemode=!creative,gamemode=!spectator] run scoreboard players set @s monkeyhue.entity.AIState 0
-execute if score @s monkeyhue.time2 matches 24.. if entity @p[distance=..10,gamemode=!creative,gamemode=!spectator] run scoreboard players set @s monkeyhue.entity.AIState 2
+execute if score @s monkeyhue.time2 matches 32.. if entity @p[distance=..10,gamemode=!creative,gamemode=!spectator] run scoreboard players set @s monkeyhue.entity.AIState 2

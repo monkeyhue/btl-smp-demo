@@ -1,0 +1,6 @@
+{
+	"message_id": "tbd.snowfiend",
+	"effects": "freezing",
+	"exhaustion": 0.1,
+	"scaling": "always"
+}

@@ -10,6 +10,7 @@
 		{"predicate": {"custom_model_data": 6540007}, "model": "btl:block/fusion_core_super"},
 		{"predicate": {"custom_model_data": 6540008}, "model": "btl:block/fusion_core_ultra"},
 		{"predicate": {"custom_model_data": 6540009}, "model": "btl:block/fusion_core_lucky"},
-		{"predicate": {"custom_model_data": 6540010}, "model": "btl:block/fusion_core_spicy"}
+		{"predicate": {"custom_model_data": 6540010}, "model": "btl:block/fusion_core_spicy"},
+		{"predicate": {"custom_model_data": 6540011}, "model": "btl:block/blender"}
 	]
 }

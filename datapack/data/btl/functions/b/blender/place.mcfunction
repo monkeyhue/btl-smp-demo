@@ -1,0 +1,9 @@
+execute if block ~ ~ ~ furnace[facing=north] if block ~ ~1 ~ #btl:unsolid run summon interaction ~ ~-0.5 ~ {width:1f,height:1f,Tags:["btl.block","btl.b.blender"],Passengers:[{id:"minecraft:item_display",item:{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:0},Damage:0,CustomModelData:6542001,data:{},output:[]}},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.5f,0f],scale:[1f,1f,1f]}}]}
+
+execute if block ~ ~ ~ furnace[facing=east] if block ~ ~1 ~ #btl:unsolid run summon interaction ~ ~-0.5 ~ {width:1f,height:1f,Tags:["btl.block","btl.b.blender"],Passengers:[{id:"minecraft:item_display",item:{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:4194304},Damage:0,CustomModelData:6542001,data:{},output:[]}},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.5f,0f],scale:[1f,1f,1f]}}]}
+
+execute if block ~ ~ ~ furnace[facing=south] if block ~ ~1 ~ #btl:unsolid run summon interaction ~ ~-0.5 ~ {width:1f,height:1f,Tags:["btl.block","btl.b.blender"],Passengers:[{id:"minecraft:item_display",item:{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:8388608},Damage:0,CustomModelData:6542001,data:{},output:[]}},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.5f,0f],scale:[1f,1f,1f]}}]}
+
+execute if block ~ ~ ~ furnace[facing=west] if block ~ ~1 ~ #btl:unsolid run summon interaction ~ ~-0.5 ~ {width:1f,height:1f,Tags:["btl.block","btl.b.blender"],Passengers:[{id:"minecraft:item_display",item:{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:12582912},Damage:0,CustomModelData:6542001,data:{},output:[]}},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.5f,0f],scale:[1f,1f,1f]}}]}
+
+setblock ~ ~ ~ air

@@ -7,4 +7,6 @@ scoreboard players reset @s btl.w.progress
 scoreboard players reset @s btl.w.maxMobs
 scoreboard players reset @s btl.w.mobs
 scoreboard players reset @s btl.w.credits
+stopsound @a[scores={btl.w.battleID=1}] music btl:music.blue.boss
+execute as @a[scores={btl.w.battleID=1}] run scoreboard players reset @s btl.w.battleID
 bossbar remove btl:blue

@@ -9,3 +9,4 @@ execute if block ~ ~ ~ furnace{Items:[{tag:{smithed:{block:{id:"btl:stone_doorfr
 execute if block ~ ~ ~ furnace{Items:[{tag:{smithed:{block:{id:"btl:stone_doorframe_3"}}}}]} run function btl:b/doorframe/place/stone/3
 execute if block ~ ~ ~ furnace{Items:[{tag:{smithed:{block:{id:"btl:fusion_pedestal"}}}}]} run function btl:b/fusion_pedestal/place
 execute if block ~ ~ ~ furnace{Items:[{tag:{smithed:{block:{id:"btl:fusion_core"}}}}]} run function btl:b/fusion_core/place
+execute if block ~ ~ ~ furnace{Items:[{tag:{smithed:{block:{id:"btl:blender"}}}}]} run function btl:b/blender/place

@@ -15,6 +15,19 @@
   "actionbar.btl.doorframe.hint": "All it\'s missing is a door...",
   "actionbar.btl.door.full": "This door has enough portalstones!",
   "actionbar.btl.door.prox": "Another battle is already happening nearby!",
+  "actionbar.btl.door.invalid_recipe": "These stones don't mix. Try a different combo!",
+  "actionbar.btl.battle.too_far": "You're too far away from the battledoor! Get closer, quickly!",
+  "actionbar.btl.battle.too_far5": "Disqualification in 5..",
+  "actionbar.btl.battle.too_far4": "Disqualification in 4..",
+  "actionbar.btl.battle.too_far3": "Disqualification in 3..",
+  "actionbar.btl.battle.too_far2": "Disqualification in 2..",
+  "actionbar.btl.battle.too_far1": "Disqualification in 1..",
+  "actionbar.btl.battle.too_far0": "You have been removed from the current battle.",
+  "actionbar.btl.battle.back_in": "You have re-entered the battle!",
+  "actionbar.btl.battle.out": "You aren't in this battle! Your weapons will do far less damage.",
+  "actionbar.btl.blender.invalid": "The Dimensional Blender won't take this item!",
+  "actionbar.btl.blender.wait": "Wait for the blender to finish first!",
+  "actionbar.btl.blender.tip": "Put the wrong item in the blender? Break it to retrieve it!",
 
   "death.attack.btl.tricksy.kaboomer": "%s went \"KABOOM!\"",
   "death.attack.btl.tricksy.confetti": "%s was burnt to a crisp by flaming confetti",
@@ -147,5 +160,6 @@
   "block.btl.doorframe_4.gilded": "Gilded Doorframe",
   "block.btl.door_default": "Dimensional Door",
   "block.btl.fusion_pedestal": "Marble Pedestal",
-  "block.btl.fusion_core": "Fusion Core"
+  "block.btl.fusion_core": "Fusion Core",
+  "block.btl.blender": "Dimensional Blender"
 }

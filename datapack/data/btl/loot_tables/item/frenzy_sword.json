@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{btl:{power:100,id:\"frenzy_sword\",type:0,event:\"bonus\"},display:{Name:'{\"translate\":\"item.btl.frenzy_sword\",\"color\":\"#653AA4\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:6540003,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:7,Operation:0,UUID:[I;1061269493,1220558934,-1238094162,1105651973],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.4,Operation:0,UUID:[I;1012308904,-1775744810,-1950450057,-543910567],Slot:\"mainhand\"}]}"
+              "tag": "{btl:{power:100,id:\"frenzy_sword\",type:0,event:\"bonus\"},display:{Name:'{\"translate\":\"item.btl.frenzy_sword\",\"color\":\"#653AA0\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:6540003,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:7,Operation:0,UUID:[I;1061269493,1220558934,-1238094162,1105651973],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.4,Operation:0,UUID:[I;1012308904,-1775744810,-1950450057,-543910567],Slot:\"mainhand\"}]}"
             },
             {
               "function": "minecraft:set_lore",

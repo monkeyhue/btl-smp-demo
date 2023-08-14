@@ -1,0 +1,6 @@
+{
+	"parent": "btl:item/entity/snowfiend/256",
+	"textures": {
+		"0": "btl:item/entity/snowfiend/walk"
+	}
+}
