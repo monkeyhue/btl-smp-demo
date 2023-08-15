@@ -5,3 +5,4 @@ scoreboard players add @s monkeyhue.temp1 1
 execute store result entity @s item.tag.display.color int 1.0 run scoreboard players get @s monkeyhue.temp1
 scoreboard players reset @s monkeyhue.temp1
 execute on vehicle run scoreboard players reset @s monkeyhue.time1
+execute on vehicle if score @s monkeyhue.entity.AIState matches 0 run scoreboard players set @s monkeyhue.entity.AIState 1

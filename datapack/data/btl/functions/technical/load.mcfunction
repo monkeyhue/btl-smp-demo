@@ -13,6 +13,7 @@ scoreboard objectives add btl.player.power dummy
 scoreboard objectives add btl.player.melee_reload dummy
 scoreboard objectives add btl.player.ranged_reload dummy
 scoreboard objectives add btl.sum dummy
+scoreboard objectives add btl.tempWeapon dummy
 
 #// Information for blocks
 scoreboard objectives add btl.b.sockets dummy
@@ -39,3 +40,4 @@ scoreboard players set #btl.20 monkeyhue.temp1 20
 scoreboard players set #btl.50 monkeyhue.temp1 50
 scoreboard players set #btl.100 monkeyhue.temp1 100
 scoreboard players set #btl.5000 monkeyhue.temp1 5000
+scoreboard players set #btl.10000 monkeyhue.temp1 10000
