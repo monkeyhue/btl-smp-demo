@@ -88,12 +88,19 @@
 			}
 		]
 	},
-	"block.dimensional_blender.vocalize": {
-	"sounds": [
-			{
-				"name": "btl:block/blender/vocal1"},
-				{"name": "btl:block/blender/vocal2"
-			}
+		"block.dimensional_blender.vocalize": {
+		"sounds": [
+		{
+			"name": "btl:block/blender/vocal2",
+			"pitch": 1.05
+		},
+		{
+			"name": "btl:block/blender/vocal2"
+		},
+		{
+			"name": "btl:block/blender/vocal2",
+			"pitch": 0.95
+		}
 		]
 	},
 	"block.dimensional_blender.activate": {

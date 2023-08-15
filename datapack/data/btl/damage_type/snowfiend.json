@@ -1,5 +1,5 @@
 {
-	"message_id": "tbd.snowfiend",
+	"message_id": "btl.snowfiend",
 	"effects": "freezing",
 	"exhaustion": 0.1,
 	"scaling": "always"

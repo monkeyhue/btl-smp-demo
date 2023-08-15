@@ -12,7 +12,7 @@
 	
 		{"predicate": {"custom_model_data": 6540010, "damage": 0}, "model": "btl:item/entity/snowfiend/idle"}, {"predicate": {"custom_model_data": 6540010, "damage": 0.0125}, "model": "btl:item/entity/snowfiend/walk"}, {"predicate": {"custom_model_data": 6540010, "damage": 0.025}, "model": "btl:item/entity/snowfiend/attack"}, {"predicate": {"custom_model_data": 6540010, "damage": 0.0375}, "model": "btl:item/entity/snowfiend/spin"},
 	
-		{"predicate": {"custom_model_data": 6540011, "damage": 0}, "model": "btl:item/entity/blizzy/move"}, {"predicate": {"custom_model_data": 6540011, "damage": 0.0125}, "model": "btl:item/entity/blizzy/blow"},
+		{"predicate": {"custom_model_data": 6540011, "damage": 0}, "model": "btl:item/entity/blizzy/idle"}, {"predicate": {"custom_model_data": 6540011, "damage": 0.0125}, "model": "btl:item/entity/blizzy/charge_in"}, {"predicate": {"custom_model_data": 6540011, "damage": 0.025}, "model": "btl:item/entity/blizzy/charge"}, {"predicate": {"custom_model_data": 6540011, "damage": 0.0375}, "model": "btl:item/entity/blizzy/charge_out"}, {"predicate": {"custom_model_data": 6540011, "damage": 0.05}, "model": "btl:item/entity/blizzy/spit_snowflakes"},
 	
 		{"predicate": {"custom_model_data": 6540012, "damage": 0}, "model": "btl:item/entity/chillager/idle"}, {"predicate": {"custom_model_data": 6540012, "damage": 0.0125}, "model": "btl:item/entity/chillager/run"}, {"predicate": {"custom_model_data": 6540012, "damage": 0.025}, "model": "btl:item/entity/chillager/spell"},
 	

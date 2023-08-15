@@ -12,10 +12,10 @@ execute unless score @s monkeyhue.tempAI matches 1 run scoreboard players set @s
 scoreboard players add @s monkeyhue.time2 1
 scoreboard players add @s monkeyhue.time3 1
 
-execute if block ~ ~-0.25 ~ #btl:unsolid facing entity @p[gamemode=!creative,gamemode=!spectator] feet run teleport @s ^ ^ ^0.31 ~ 0
-execute unless block ~ ~-0.25 ~ #btl:unsolid facing entity @p[gamemode=!creative,gamemode=!spectator] feet run teleport @s ^ ^0.05 ^0.31 ~ 0
-execute if block ~ ~-1 ~ #btl:unsolid facing entity @p[gamemode=!creative,gamemode=!spectator] feet run teleport @s ^ ^-0.05 ^0.31 ~ 0
-execute unless block ^ ^ ^0.4 #btl:unsolid facing entity @p[gamemode=!creative,gamemode=!spectator] feet run teleport @s ^ ^0.3 ^0.31 ~ 0
+execute if block ~ ~-0.25 ~ #btl:unsolid facing entity @p[gamemode=!creative,gamemode=!spectator] feet run teleport @s ^ ^ ^0.25 ~ 0
+execute unless block ~ ~-0.25 ~ #btl:unsolid facing entity @p[gamemode=!creative,gamemode=!spectator] feet run teleport @s ^ ^0.05 ^0.25 ~ 0
+execute if block ~ ~-1 ~ #btl:unsolid facing entity @p[gamemode=!creative,gamemode=!spectator] feet run teleport @s ^ ^-0.05 ^0.25 ~ 0
+execute unless block ^ ^ ^0.4 #btl:unsolid facing entity @p[gamemode=!creative,gamemode=!spectator] feet run teleport @s ^ ^0.3 ^0.25 ~ 0
 
 #// Precautions to make sure there's no hovering or falling off edges or into holes
 execute unless score @s monkeyhue.time5 matches 5.. if block ~ ~-0.42 ~ #btl:unsolid run scoreboard players add @s monkeyhue.time5 1

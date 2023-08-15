@@ -11,6 +11,7 @@ scoreboard objectives add btl.player.use minecraft.used:minecraft.warped_fungus_
 scoreboard objectives add btl.damage dummy
 scoreboard objectives add btl.player.power dummy
 scoreboard objectives add btl.player.melee_reload dummy
+scoreboard objectives add btl.player.ranged_reload dummy
 scoreboard objectives add btl.sum dummy
 
 #// Information for blocks

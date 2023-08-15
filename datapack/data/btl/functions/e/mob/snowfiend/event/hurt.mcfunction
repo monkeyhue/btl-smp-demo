@@ -1,1 +1,1 @@
-damage @p[distance=..2.75,gamemode=!creative,gamemode=!spectator] 10 btl:snow_zombie by @s
+damage @p[distance=..2.75,gamemode=!creative,gamemode=!spectator] 10 btl:snowfiend by @s

@@ -4,6 +4,7 @@
 		"layer0": "item/warped_fungus_on_a_stick"
 	},
 	"overrides": [
-		{"predicate": {"custom_model_data": 6540001}, "model": "btl:item/skull_staff"}
+		{"predicate": {"custom_model_data": 6540001}, "model": "btl:item/skull_staff"},
+		{"predicate": {"custom_model_data": 6540002}, "model": "btl:item/grave_danger"}
 	]
 }

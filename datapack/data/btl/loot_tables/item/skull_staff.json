@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{btl:{power:100,id:\"skull_staff\",type:0,event:\"none\"},display:{Name:'{\"translate\":\"item.btl.skull_staff\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:6540001}"
+              "tag": "{btl:{power:100,id:\"skull_staff\",type:2,event:\"none\"},display:{Name:'{\"translate\":\"item.btl.skull_staff\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:6540001}"
             },
             {
               "function": "minecraft:set_lore",

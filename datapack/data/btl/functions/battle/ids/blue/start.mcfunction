@@ -5,7 +5,6 @@ title @a[scores={btl.w.battleID=1}] subtitle [{"translate":"battle.btl.ui.rating
 playsound minecraft:entity.player.levelup master @a[scores={btl.w.battleID=1}] ~ ~ ~ 1 1 1
 
 #// Bossbar
-bossbar add btl:blue "Icebound Battleground"
+bossbar add btl:blue {"translate": "battle.btl.wave.buffer"}
 bossbar set btl:blue color blue
 bossbar set btl:blue players @a[scores={btl.w.battleID=1}]
-bossbar set btl:blue max 120

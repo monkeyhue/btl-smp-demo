@@ -1,0 +1,6 @@
+{
+	"message_id": "btl.blizzy.prj",
+	"effects": "freezing",
+	"exhaustion": 0.1,
+	"scaling": "always"
+}

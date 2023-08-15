@@ -14,5 +14,3 @@ execute if entity @s[tag=btl.e.yeti] run function btl:e/mob/yeti/main
 #--- Non-mob Entities ---#
 execute if entity @s[tag=btl.prj] run function btl:e/prj/main
 execute if entity @s[tag=btl.temp] run function btl:e/temp/main
-
-

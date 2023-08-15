@@ -9,4 +9,5 @@ scoreboard players reset @s btl.w.mobs
 scoreboard players reset @s btl.w.credits
 stopsound @a[scores={btl.w.battleID=1}] music btl:music.blue.boss
 execute as @a[scores={btl.w.battleID=1}] run scoreboard players reset @s btl.w.battleID
+execute as @e[scores={btl.w.battleID=1}] run scoreboard players set @s monkeyhue.time1 999999999
 bossbar remove btl:blue
