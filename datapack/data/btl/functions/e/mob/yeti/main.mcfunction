@@ -53,4 +53,6 @@ function btl:e/mob/main
 execute if score @s monkeyhue.time1 matches 999999999.. run function btl:e/mob/despawn
 
 scoreboard players add @s monkeyhue.time6 1
-execute store result bossbar btl:blue value run scoreboard players get @s monkeyhue.entity.health
+execute if score @s btl.w.battleID matches 1 store result bossbar btl:blue value run scoreboard players get @s monkeyhue.entity.health
+execute if score @s btl.w.battleID matches 2 store result bossbar btl:blue2 value run scoreboard players get @s monkeyhue.entity.health
+execute if score @s btl.w.battleID matches 3 store result bossbar btl:blue3 value run scoreboard players get @s monkeyhue.entity.health

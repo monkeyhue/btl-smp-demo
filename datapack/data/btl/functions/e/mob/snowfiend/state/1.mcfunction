@@ -9,10 +9,16 @@ execute unless score @s monkeyhue.tempAI matches 1 on passengers run function bt
 execute unless score @s monkeyhue.tempAI matches 1 run scoreboard players reset @s monkeyhue.time2
 execute unless score @s monkeyhue.tempAI matches 1 run scoreboard players set @s monkeyhue.tempAI 1
 
-execute if block ~ ~-0.25 ~ #btl:unsolid facing entity @p[gamemode=!creative,gamemode=!spectator] feet run teleport @s ^ ^ ^0.15 ~ 0
-execute unless block ~ ~-0.25 ~ #btl:unsolid facing entity @p[gamemode=!creative,gamemode=!spectator] feet run teleport @s ^ ^0.05 ^0.15 ~ 0
-execute if block ~ ~-1 ~ #btl:unsolid facing entity @p[gamemode=!creative,gamemode=!spectator] feet run teleport @s ^ ^-0.05 ^0.15 ~ 0
-execute unless block ^ ^ ^0.4 #btl:unsolid facing entity @p[gamemode=!creative,gamemode=!spectator] feet run teleport @s ^ ^0.3 ^0.15 ~ 0
+#// Tier 1 moves slower
+execute if score @s btl.w.battleID matches 1 if block ~ ~-0.25 ~ #btl:unsolid facing entity @p[gamemode=!creative,gamemode=!spectator] feet run teleport @s ^ ^ ^0.15 ~ 0
+execute if score @s btl.w.battleID matches 1 unless block ~ ~-0.25 ~ #btl:unsolid facing entity @p[gamemode=!creative,gamemode=!spectator] feet run teleport @s ^ ^0.05 ^0.15 ~ 0
+execute if score @s btl.w.battleID matches 1 if block ~ ~-1 ~ #btl:unsolid facing entity @p[gamemode=!creative,gamemode=!spectator] feet run teleport @s ^ ^-0.05 ^0.15 ~ 0
+execute if score @s btl.w.battleID matches 1 unless block ^ ^ ^0.4 #btl:unsolid facing entity @p[gamemode=!creative,gamemode=!spectator] feet run teleport @s ^ ^0.3 ^0.15 ~ 0
+
+execute if score @s btl.w.battleID matches 2..3 if block ~ ~-0.25 ~ #btl:unsolid facing entity @p[gamemode=!creative,gamemode=!spectator] feet run teleport @s ^ ^ ^0.225 ~ 0
+execute if score @s btl.w.battleID matches 2..3 unless block ~ ~-0.25 ~ #btl:unsolid facing entity @p[gamemode=!creative,gamemode=!spectator] feet run teleport @s ^ ^0.05 ^0.225 ~ 0
+execute if score @s btl.w.battleID matches 2..3 if block ~ ~-1 ~ #btl:unsolid facing entity @p[gamemode=!creative,gamemode=!spectator] feet run teleport @s ^ ^-0.05 ^0.225 ~ 0
+execute if score @s btl.w.battleID matches 2..3 unless block ^ ^ ^0.4 #btl:unsolid facing entity @p[gamemode=!creative,gamemode=!spectator] feet run teleport @s ^ ^0.3 ^0.225 ~ 0
 
 #// Precautions to make sure there's no hovering or falling off edges or into holes
 execute unless score @s monkeyhue.time5 matches 5.. if block ~ ~-0.42 ~ #btl:unsolid run scoreboard players add @s monkeyhue.time5 1

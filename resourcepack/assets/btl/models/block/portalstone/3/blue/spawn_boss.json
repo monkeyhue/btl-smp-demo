@@ -1,0 +1,6 @@
+{
+	"parent": "btl:block/portalstone/3/128",
+	"textures": {
+		"0": "btl:block/portalstone/3/blue/spawn_boss"
+	}
+}

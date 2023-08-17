@@ -1,5 +1,6 @@
 scoreboard players set @s monkeyhue.entity.AIState 5
-tellraw @a "Hey you guys won! Nice! There'd normally be a chest waiting for you here, but I got too lazy to make a loot table..."
+function btl:b/chest/summon
+execute on passengers on passengers on passengers on passengers run function btl:b/door/interact/destroy
 scoreboard players reset @s btl.w.battleID
 scoreboard players reset @s btl.w.waveID
 scoreboard players reset @s btl.w.tempID

@@ -27,7 +27,3 @@ execute as @a[scores={btl.w.battleID=1,btl.w.penalty=1..},distance=..36] at @s r
 
 #// Checks for despawned mobs
 execute if data storage btl:temp despawn[{id:1}] run function btl:battle/ids/blue/despawn
-
-#--- Loss determination ---
-execute unless entity @p[scores={btl.w.battleID=1}] run function btl:battle/ids/blue/loss
-execute if score @s btl.w.progress matches ..-40 run function btl:battle/ids/blue/loss

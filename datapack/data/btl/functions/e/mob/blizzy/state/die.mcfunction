@@ -6,6 +6,9 @@
 #Effects
 particle minecraft:poof ~ ~0.3 ~ 0.2 0.3 0.2 0.05 30 force
 
+#// Natural
+execute if score @s btl.w.battleID matches -1 run loot spawn ~ ~0.3 ~ loot btl:entity/blizzy
+
 #// Icebound Battleground 1
 execute if score @s btl.w.battleID matches 1 run data modify storage btl:root activeBattles[{id:1}].kills append value "blizzy"
 

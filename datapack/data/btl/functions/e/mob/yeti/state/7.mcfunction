@@ -12,7 +12,6 @@ execute unless score @s monkeyhue.tempAI matches 7 run scoreboard players set @s
 
 scoreboard players add @s monkeyhue.time2 1
 
-execute if score @s monkeyhue.time2 matches ..30 facing entity @p eyes positioned ^ ^ ^1 positioned over motion_blocking_no_leaves run teleport @s ~ ~16 ~ ~ 0
-execute if score @s monkeyhue.time2 matches 30.. rotated as @p run teleport @s ^ ^ ^1.25 ~ 0
+execute if score @s monkeyhue.time2 matches ..40 facing entity @p eyes positioned ^ ^ ^1 positioned over motion_blocking_no_leaves run teleport @s ~ ~16 ~ ~ 0
 
 execute if score @s monkeyhue.time2 matches 40.. run scoreboard players set @s monkeyhue.entity.AIState 8

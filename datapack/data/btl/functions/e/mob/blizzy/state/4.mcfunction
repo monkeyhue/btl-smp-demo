@@ -17,4 +17,4 @@ execute if score @s monkeyhue.time2 matches 20 run function btl:e/mob/blizzy/eve
 execute if score @s monkeyhue.time2 matches 21 run function btl:e/mob/blizzy/event/shoot_snowflakes
 execute if score @s monkeyhue.time2 matches 22 run function btl:e/mob/blizzy/event/shoot_snowflakes
 
-execute if score @s monkeyhue.time2 matches 29.. run scoreboard players set @s monkeyhue.entity.AIState 0
+execute if score @s monkeyhue.time2 matches 29.. run scoreboard players set @s monkeyhue.entity.AIState 1

@@ -1,0 +1,6 @@
+{
+	"parent": "btl:block/portalstone/2/64",
+	"textures": {
+		"0": "btl:block/portalstone/2/blue/open"
+	}
+}

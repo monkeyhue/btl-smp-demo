@@ -1,0 +1,2 @@
+# Silver Nugget
+execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if score count smithed.data matches 1 if data storage smithed.crafter:input {recipe:[{Count:1b,tag:{btl:{id:"silver_ingot"}}}]} run loot replace block ~ ~ ~ container.16 loot btl:item/zzz/silver_nugget_9

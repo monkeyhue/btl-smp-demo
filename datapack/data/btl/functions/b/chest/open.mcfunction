@@ -1,0 +1,1 @@
+scoreboard players set @s monkeyhue.entity.AIState 2

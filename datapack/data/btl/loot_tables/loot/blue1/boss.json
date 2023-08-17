@@ -1,0 +1,69 @@
+{
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "btl:item/chilly_cowl"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "btl:item/icebound_edge"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "btl:item/snowbrush"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "btl:item/frigid_bow"
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+		  "weight": 2,
+          "name": "btl:item/marble_chunk",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "btl:item/blue_portalstone"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+		  "weight": 2,
+          "name": "btl:item/fabric_of_reality"
+        },
+        {
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "btl:item/silver_nugget"
+        },
+        {
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "btl:item/marble_chunk"
+        }
+      ]
+    }
+  ]
+}

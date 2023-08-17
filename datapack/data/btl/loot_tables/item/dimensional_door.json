@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"block.btl.door_default\",\"italic\":false}',Lore:['[{\"text\":\"\ua000 \",\"font\":\"btl:tooltip\",\"color\":\"white\",\"italic\":false},{\"translate\":\"btl.name\",\"font\":\"minecraft:default\",\"color\":\"#83FFFF\",\"italic\":true}]']},CustomModelData:6540000,btl:{door:1b,id:\"dimensional_door\"}}"
+              "tag": "{display:{Name:'{\"translate\":\"block.btl.door_default\",\"italic\":false}',Lore:['[{\"text\":\"\\\\ua000 \",\"font\":\"btl:tooltip\",\"color\":\"white\",\"italic\":false},{\"translate\":\"btl.name\",\"font\":\"minecraft:default\",\"color\":\"#83FFFF\",\"italic\":true}]']},CustomModelData:6540000,btl:{door:1b,id:\"dimensional_door\"}}"
             }
           ]
         }

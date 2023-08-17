@@ -1,0 +1,6 @@
+{
+	"parent": "btl:block/chest/small",
+	"textures": {
+		"0": "btl:block/chest/default/open"
+	}
+}

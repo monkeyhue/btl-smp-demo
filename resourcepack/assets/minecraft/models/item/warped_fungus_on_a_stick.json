@@ -5,6 +5,8 @@
 	},
 	"overrides": [
 		{"predicate": {"custom_model_data": 6540001}, "model": "btl:item/skull_staff"},
-		{"predicate": {"custom_model_data": 6540002}, "model": "btl:item/grave_danger"}
+		{"predicate": {"custom_model_data": 6540002}, "model": "btl:item/grave_danger"},
+		{"predicate": {"custom_model_data": 6540003}, "model": "btl:item/kernel_blaster"},
+		{"predicate": {"custom_model_data": 6540004}, "model": "btl:item/snowbrush"}
 	]
 }

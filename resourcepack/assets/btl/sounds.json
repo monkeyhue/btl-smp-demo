@@ -40,6 +40,15 @@
 			}
 		]
 	},
+	"item.kernel_blaster.shoot": {
+		"sounds": [
+			{
+				"name": "btl:item/kernel_blaster/shoot1"},
+				{"name": "btl:item/kernel_blaster/shoot2"},
+				{"name": "btl:item/kernel_blaster/shoot3"
+			}
+		]
+	},
 	"entity.yeti.grunt": {
 		"sounds": [
 			{

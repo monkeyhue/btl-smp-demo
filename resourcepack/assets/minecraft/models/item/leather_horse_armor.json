@@ -12,6 +12,11 @@
 		{"predicate": {"custom_model_data": 6540011}, "model": "btl:item/projectile/avalanche/snow"},
 		{"predicate": {"custom_model_data": 6540012}, "model": "btl:item/projectile/ice_chunk/summon"},
 		{"predicate": {"custom_model_data": 6540013}, "model": "btl:item/projectile/ice_chunk/fall"},
-		{"predicate": {"custom_model_data": 6541001}, "model": "btl:item/projectile/gravestone"}
+		{"predicate": {"custom_model_data": 6541001}, "model": "btl:item/projectile/gravestone"},
+		{"predicate": {"custom_model_data": 6541002}, "model": "btl:item/projectile/skull"},
+		{"predicate": {"custom_model_data": 6541003}, "model": "btl:item/projectile/popcorn_fire"},
+		{"predicate": {"custom_model_data": 6541004}, "model": "btl:item/projectile/snowbrush/1"},
+		{"predicate": {"custom_model_data": 6541005}, "model": "btl:item/projectile/snowbrush/2"},
+		{"predicate": {"custom_model_data": 6541006}, "model": "btl:item/projectile/snowbrush/3"}
 	]
 }

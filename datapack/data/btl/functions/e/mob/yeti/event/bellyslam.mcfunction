@@ -1,2 +1,3 @@
 summon minecraft:snowball ~ ~ ~ {Item:{id:"minecraft:egg",Count:1b,tag:{CustomModelData:6540000}},Motion:[0.0,-1.0,0.0],Tags:["btl.fakefalling","smithed.entity","smithed.strict"]}
 ride @s mount @e[type=snowball,distance=0..6,limit=1,sort=nearest,tag=btl.fakefalling]
+execute as @e[type=snowball,distance=0..6,limit=1,sort=nearest,tag=btl.fakefalling] run function btl:e/mob/yeti/event/bellyslam_target

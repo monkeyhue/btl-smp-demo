@@ -1,0 +1,6 @@
+{
+	"parent": "btl:block/doorframe/256",
+	"textures": {
+		"0": "btl:block/doorframe/stone_2/celebrate_close"
+	}
+}

@@ -1,0 +1,20 @@
+#// Silver Ingot
+execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:input recipe{0:[{Slot:0b,tag:{btl:{id:"silver_nugget"}}},{Slot:1b,tag:{btl:{id:"silver_nugget"}}},{Slot:2b,tag:{btl:{id:"silver_nugget"}}}],1:[{Slot:0b,tag:{btl:{id:"silver_nugget"}}},{Slot:1b,tag:{btl:{id:"silver_nugget"}}},{Slot:2b,tag:{btl:{id:"silver_nugget"}}}],2:[{Slot:0b,tag:{btl:{id:"silver_nugget"}}},{Slot:1b,tag:{btl:{id:"silver_nugget"}}},{Slot:2b,tag:{btl:{id:"silver_nugget"}}}]} run loot replace block ~ ~ ~ container.16 loot btl:item/silver_ingot
+
+#// Marble
+execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:input recipe{0:[{Slot:0b,tag:{btl:{id:"marble_nugget"}}},{Slot:1b,tag:{btl:{id:"marble_nugget"}}},{Slot:2b,tag:{btl:{id:"marble_nugget"}}}],1:[{Slot:0b,tag:{btl:{id:"marble_nugget"}}},{Slot:1b,tag:{btl:{id:"marble_nugget"}}},{Slot:2b,tag:{btl:{id:"marble_nugget"}}}],2:[{Slot:0b,tag:{btl:{id:"marble_nugget"}}},{Slot:1b,tag:{btl:{id:"marble_nugget"}}},{Slot:2b,tag:{btl:{id:"marble_nugget"}}}]} run loot replace block ~ ~ ~ container.16 loot btl:item/marble
+
+#// Dimensional Blender
+execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:input recipe{0:[{Slot:0b,id:"minecraft:glass"},{Slot:1b,id:"minecraft:air"},{Slot:2b,id:"minecraft:glass"}],1:[{Slot:0b,id:"minecraft:glass"},{Slot:1b,id:"minecraft:air"},{Slot:2b,id:"minecraft:glass"}],2:[{Slot:0b,tag:{btl:{id:"fabric"}}},{Slot:1b,tag:{btl:{id:"silver_ingot"}}},{Slot:2b,tag:{btl:{id:"fabric"}}}]} run loot replace block ~ ~ ~ container.16 loot btl:block/dimensional_blender
+
+#// Fusion Core
+execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:input recipe{0:[{Slot:0b,id:"minecraft:gold_ingot"},{Slot:1b,tag:{btl:{id:"fabric"}}},{Slot:2b,id:"minecraft:gold_ingot"}],1:[{Slot:0b,tag:{btl:{id:"log"}}},{Slot:1b,tag:{btl:{id:"marble"}}},{Slot:2b,tag:{btl:{id:"log"}}}],2:[{Slot:0b,tag:{btl:{id:"log"}}},{Slot:1b,tag:{btl:{id:"log"}}},{Slot:2b,tag:{btl:{id:"log"}}}]} run loot replace block ~ ~ ~ container.16 loot btl:block/fusion_core
+
+#// Marble Pedestal
+execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:input recipe{0:[{Slot:0b,id:"minecraft:gold_ingot"},{Slot:1b,tag:{btl:{id:"fabric"}}},{Slot:2b,id:"minecraft:gold_ingot"}],1:[{Slot:0b,id:"minecraft:air"},{Slot:1b,tag:{btl:{id:"marble_nugget"}}},{Slot:2b,id:"minecraft:air"}],2:[{Slot:0b,tag:{btl:{id:"marble_nugget"}}},{Slot:1b,tag:{btl:{id:"marble_nugget"}}},{Slot:2b,tag:{btl:{id:"marble_nugget"}}}]} run loot replace block ~ ~ ~ container.16 loot btl:block/fusion_pedestal
+
+#// Stone Doorframe
+execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:input recipe{0:[{Slot:0b,id:"minecraft:stone_bricks"},{Slot:1b,id:"minecraft:stone_bricks"},{Slot:2b,id:"minecraft:stone_bricks"}],1:[{Slot:0b,id:"minecraft:stone_brick_wall"},{Slot:1b,tag:{btl:{portalstone:{}}}},{Slot:2b,id:"minecraft:stone_brick_wall"}],2:[{Slot:0b,id:"minecraft:stone_brick_wall"},{Slot:1b,id:"minecraft:air"},{Slot:2b,id:"minecraft:stone_brick_wall"}]} run loot replace block ~ ~ ~ container.16 loot btl:block/stone_doorframe_1
+
+#// Sturdy Doorframe
+execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:input recipe{0:[{Slot:0b,tag:{btl:{id:"fabric"}}},{Slot:1b,tag:{btl:{id:"fabric"}}},{Slot:2b,tag:{btl:{id:"fabric"}}}],1:[{Slot:0b,tag:{btl:{id:"log"}}},{Slot:1b,tag:{btl:{id:"stone_doorframe_1"}}},{Slot:2b,tag:{btl:{id:"log"}}}],2:[{Slot:0b,tag:{btl:{id:"log"}}},{Slot:1b,id:"minecraft:air"},{Slot:2b,tag:{btl:{id:"log"}}}]} run loot replace block ~ ~ ~ container.16 loot btl:block/stone_doorframe_2

@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{btl:{power:100,id:\"katana\",type:0,event:\"none\"},display:{Name:'{\"translate\":\"item.btl.katana\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:6540001,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:6,Operation:0,UUID:[I;1061269493,1220558934,-1238094162,1105651973],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.0,Operation:0,UUID:[I;1012308904,-1775744810,-1950450057,-543910567],Slot:\"mainhand\"}]}"
+              "tag": "{btl:{power:100,id:\"katana\",type:0,event:\"none\"},display:{Name:'{\"translate\":\"item.btl.katana\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:6540001,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;1061269493,1220558934,-1238094162,1105651973],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.0,Operation:0,UUID:[I;1012308904,-1775744810,-1950450057,-543910567],Slot:\"mainhand\"}]}"
             },
             {
               "function": "minecraft:set_lore",
@@ -49,7 +49,7 @@
                   "italic": false
                 },
                 {
-                  "translate": "desc.btl.attack_damage.7",
+                  "translate": "desc.btl.attack_damage.6",
                   "color": "dark_green",
                   "italic": false
                 },

@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:furnace",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"block.btl.doorframe_2\",\"italic\":false}',Lore:['[{\"text\":\"\\\\ua000 \",\"font\":\"btl:tooltip\",\"color\":\"white\",\"italic\":false},{\"translate\":\"btl.name\",\"font\":\"minecraft:default\",\"color\":\"#83FFFF\",\"italic\":true}]']},CustomModelData:6540002,btl:{block:{id:\"stone_doorframe_2\"}},BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:structure_void\",Count:1b,tag:{smithed:{block:{id:\"btl:stone_doorframe_2\"}}}}]},btl:{doorframe:1b,sockets:1,id:\"stone_doorframe_2\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

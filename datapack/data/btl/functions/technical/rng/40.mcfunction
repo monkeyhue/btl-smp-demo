@@ -1,0 +1,19 @@
+#-------------------------------------------------------------#
+#
+# Simple PRNG gen for tta (Fixes BPS! (I HOPE!!!))
+#
+#-------------------------------------------------------------#
+
+# Get Range
+scoreboard players add @s monkeyhue.rng.in 40
+
+# Main Operation
+scoreboard players operation %monkeyhue.lcg monkeyhue.temp1 *= %monkeyhue.lcg1 monkeyhue.temp1
+scoreboard players operation %monkeyhue.lcg monkeyhue.temp1 += %monkeyhue.lcg2 monkeyhue.temp1
+scoreboard players operation %monkeyhue.lcg monkeyhue.temp1 %= %monkeyhue.lcg3 monkeyhue.temp1
+
+# Refine and return
+scoreboard players operation @s monkeyhue.rng.out = %monkeyhue.lcg monkeyhue.temp1
+#scoreboard players operation @s monkeyhue.rng.out /= #10 monkeyhue.temp1
+scoreboard players operation @s monkeyhue.rng.out %= @s monkeyhue.rng.in
+scoreboard players reset @s monkeyhue.rng.in

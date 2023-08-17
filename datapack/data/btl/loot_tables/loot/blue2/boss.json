@@ -1,0 +1,93 @@
+{
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "btl:item/chilly_cowl"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "btl:item/icebound_edge"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "btl:item/snowbrush"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "btl:item/frigid_bow"
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+		  "weight": 30,
+          "name": "btl:item/marble_chunk"
+        },
+        {
+          "type": "minecraft:loot_table",
+		  "weight": 19,
+          "name": "btl:item/fusion_catalyst"
+        },
+        {
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "btl:item/super_fusion_catalyst"
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "btl:item/fabric_of_reality"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "btl:item/silver_nugget",
+		  "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_lazuli",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

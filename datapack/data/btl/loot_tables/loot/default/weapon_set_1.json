@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "btl:item/kernel_blaster"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "btl:item/katana"
+        }
+      ]
+    }
+  ]
+}

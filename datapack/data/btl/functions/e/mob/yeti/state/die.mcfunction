@@ -16,4 +16,5 @@ execute on passengers on passengers run kill @s
 execute on passengers run kill @s
 kill @s
 
-execute as @e[type=interaction,limit=1,sort=nearest,scores={btl.w.battleID=1,btl.w.waveID=5}] run function btl:battle/ids/blue/win
+execute if score @s btl.w.battleID matches 1 as @e[type=interaction,limit=1,sort=nearest,scores={btl.w.battleID=1,btl.w.waveID=5}] run function btl:battle/ids/blue/completed
+execute if score @s btl.w.battleID matches 2 as @e[type=interaction,limit=1,sort=nearest,scores={btl.w.battleID=2,btl.w.waveID=8}] run function btl:battle/ids/blue2/completed

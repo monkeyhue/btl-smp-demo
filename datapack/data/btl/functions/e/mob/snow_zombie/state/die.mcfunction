@@ -8,6 +8,9 @@ particle minecraft:poof ~ ~0.3 ~ 0.2 0.3 0.2 0.05 30 force
 playsound minecraft:entity.chicken.egg hostile @a ~ ~ ~ 1 1
 playsound minecraft:entity.zombie.death hostile @a ~ ~ ~ 0.9 1
 
+#// Natural
+execute if score @s btl.w.battleID matches -1 run loot spawn ~ ~0.3 ~ loot btl:entity/frozen_zombie
+
 #// Icebound Battleground 1
 execute if score @s btl.w.battleID matches 1 run data modify storage btl:root activeBattles[{id:1}].kills append value "snow_zombie"
 

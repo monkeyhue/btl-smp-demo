@@ -1,0 +1,5 @@
+execute if score @s btl.b.sockets matches 1 on passengers on passengers on passengers on passengers if entity @s[tag=btl.b.door.socketed] on vehicle on vehicle on vehicle on vehicle run scoreboard players set @s monkeyhue.entity.AIState 1
+execute if score @s btl.b.sockets matches 2 on passengers on passengers on passengers on passengers on passengers if entity @s[tag=btl.b.door.socketed] on vehicle on vehicle on vehicle on vehicle on vehicle run scoreboard players set @s monkeyhue.entity.AIState 1
+execute if score @s btl.b.sockets matches 3 on passengers on passengers on passengers on passengers on passengers on passengers if entity @s[tag=btl.b.door.socketed] on vehicle on vehicle on vehicle on vehicle on vehicle on vehicle run scoreboard players set @s monkeyhue.entity.AIState 1
+
+scoreboard players reset @s monkeyhue.temp2

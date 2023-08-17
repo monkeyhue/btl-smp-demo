@@ -1,0 +1,6 @@
+execute if score @s monkeyhue.time1 matches 1 run function btl:technical/rng/3
+execute if score @s monkeyhue.time1 matches 1 run spreadplayers ~ ~ 1 36 true @s
+
+execute if score @s monkeyhue.time1 matches 2 if score @s monkeyhue.rng.out matches 0 run summon item_display ~ ~12 ~ {item_display:"ground",billboard:"center",Tags:["btl.entity","btl.prj","btl.prj.snowflake_arena"],item:{id:"minecraft:leather_horse_armor",Count:1b,tag:{display:{color:0},CustomModelData:6540007}}}
+execute if score @s monkeyhue.time1 matches 2 if score @s monkeyhue.rng.out matches 1 run summon item_display ~ ~12 ~ {item_display:"ground",billboard:"center",Tags:["btl.entity","btl.prj","btl.prj.snowflake_arena"],item:{id:"minecraft:leather_horse_armor",Count:1b,tag:{display:{color:0},CustomModelData:6540008}}}
+execute if score @s monkeyhue.time1 matches 2 if score @s monkeyhue.rng.out matches 2 run summon item_display ~ ~12 ~ {item_display:"ground",billboard:"center",Tags:["btl.entity","btl.prj","btl.prj.snowflake_arena"],item:{id:"minecraft:leather_horse_armor",Count:1b,tag:{display:{color:0},CustomModelData:6540009}}}

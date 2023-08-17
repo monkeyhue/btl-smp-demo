@@ -1,0 +1,6 @@
+{
+	"message_id": "btl.hazard.snowflake",
+	"effects": "freezing",
+	"exhaustion": 0.5,
+	"scaling": "always"
+}

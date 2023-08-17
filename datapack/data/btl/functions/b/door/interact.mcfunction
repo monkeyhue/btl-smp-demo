@@ -4,5 +4,6 @@ execute if score @s monkeyhue.entity.AIState matches 0 if data storage btl:temp 
 execute if score @s monkeyhue.entity.AIState matches 0 unless data storage btl:temp heldItem.doorItem run function btl:b/door/interact/unsocket_pre
 
 scoreboard players reset #btl.returnedItem monkeyhue.temp1
+scoreboard players reset @s monkeyhue.temp2
 data remove storage btl:temp heldItem
 data remove entity @s interaction

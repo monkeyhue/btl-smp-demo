@@ -41,6 +41,11 @@
                   "italic": false
                 },
                 {
+                  "translate": "desc.btl.item.frenzy_sword.part3",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
                   "text": " "
                 },
                 {

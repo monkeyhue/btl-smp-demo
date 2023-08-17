@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"item.btl.stone_blue\",\"italic\":false}',Lore:['[{\"text\":\"\ua000 \",\"font\":\"btl:tooltip\",\"color\":\"white\",\"italic\":false},{\"translate\":\"btl.name\",\"font\":\"minecraft:default\",\"color\":\"#83FFFF\",\"italic\":true}]']},CustomModelData:6541001,btl:{doorItem:1b,portalstone:{type:\"blue\"},id:\"blue_portalstone\"}}"
+              "tag": "{display:{Name:'{\"translate\":\"item.btl.stone_blue\",\"italic\":false}',Lore:['[{\"text\":\"\\\\ua000 \",\"font\":\"btl:tooltip\",\"color\":\"white\",\"italic\":false},{\"translate\":\"btl.name\",\"font\":\"minecraft:default\",\"color\":\"#83FFFF\",\"italic\":true}]']},CustomModelData:6541001,btl:{doorItem:1b,portalstone:{type:\"blue\"},id:\"blue_portalstone\"}}"
             }
           ]
         }

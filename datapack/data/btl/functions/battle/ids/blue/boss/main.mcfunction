@@ -1,6 +1,7 @@
 #--- Starting init ---
+execute unless score @s btl.w.tempID matches 5 run scoreboard players reset @s monkeyhue.time3
 execute unless score @s btl.w.tempID matches 5 run scoreboard players set @s monkeyhue.time1 100
-execute unless score @s btl.w.tempID matches 5 run function btl:admin/summon/yeti
+execute unless score @s btl.w.tempID matches 5 run function btl:battle/ids/blue/summon/yeti
 execute unless score @s btl.w.tempID matches 5 run bossbar set btl:blue name {"translate": "battle.btl.wave.blue.boss"}
 execute unless score @s btl.w.tempID matches 5 run scoreboard players set @s btl.w.maxMobs 4
 execute unless score @s btl.w.tempID matches 5 run scoreboard players set @s btl.w.mobs 0
@@ -22,4 +23,5 @@ execute if score @s monkeyhue.time3 matches 1 run stopsound @a[scores={btl.w.bat
 execute if score @s monkeyhue.time3 matches 2 run playsound btl:music.blue.boss music @a[scores={btl.w.battleID=1}] ~ ~ ~ 1 1 1
 execute if score @s monkeyhue.time3 matches 2822.. run scoreboard players reset @s monkeyhue.time3
 
-#--- End the wave battle ---
+#--- Determine if end ---
+execute unless entity @p[scores={btl.w.battleID=1}] run function btl:battle/ids/blue/win

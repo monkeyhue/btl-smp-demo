@@ -14,7 +14,10 @@ scoreboard players add @s monkeyhue.time2 1
 execute if score @s monkeyhue.time2 matches 1 run effect give @s minecraft:slowness infinite 99 true
 execute if score @s monkeyhue.time2 matches 10 run playsound btl:entity.chillager.spell hostile @a ~ ~ ~ 0.5 1
 
-execute if score @s monkeyhue.time2 matches 6 positioned ^ ^3.5 ^-0.5 run function btl:e/mob/chillager/event/spell
+execute unless score @s btl.w.battleID matches -1 if score @s monkeyhue.time2 matches 6 positioned ^ ^3.5 ^-0.5 run function btl:e/mob/chillager/event/spell
+execute if score @s btl.w.battleID matches -1 if score @s monkeyhue.time2 matches 6 positioned ^ ^3.5 ^-0.5 run function btl:e/mob/chillager/event/spell_weak
+execute if score @s btl.w.battleID matches -1 if score @s monkeyhue.time2 matches 12 positioned ^-2 ^3 ^-0.5 run function btl:e/mob/chillager/event/spell_weak
+execute if score @s btl.w.battleID matches -1 if score @s monkeyhue.time2 matches 18 positioned ^2 ^3 ^-0.5 run function btl:e/mob/chillager/event/spell_weak
 
 execute if score @s monkeyhue.time2 matches 68.. run scoreboard players set @s monkeyhue.entity.AIState 0
 execute if score @s monkeyhue.time2 matches 68.. run effect clear @s slowness

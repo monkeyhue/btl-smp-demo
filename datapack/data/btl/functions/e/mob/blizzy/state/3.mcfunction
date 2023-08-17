@@ -12,6 +12,7 @@ execute unless score @s monkeyhue.tempAI matches 3 run scoreboard players set @s
 
 scoreboard players add @s monkeyhue.time2 1
 
-execute if score @s monkeyhue.time2 matches 2..4 run function btl:e/mob/blizzy/event/drop_snowflake
+execute if score @s btl.w.battleID matches 1.. if score @s monkeyhue.time2 matches 2..4 run function btl:e/mob/blizzy/event/drop_snowflake
+execute if score @s btl.w.battleID matches 2..3 if score @s monkeyhue.time2 matches 5 run function btl:e/mob/blizzy/event/drop_snowflake
 
 execute if score @s monkeyhue.time2 matches 15.. run scoreboard players set @s monkeyhue.entity.AIState 0

@@ -5,7 +5,7 @@ execute if score @s monkeyhue.time2 matches 1.. run scoreboard players remove @s
 execute if score @s monkeyhue.time2 matches 0 run function btl:b/door/hit/reset_knocks
 
 #--- It's battle time ---
-execute if score @s monkeyhue.temp2 matches 3.. run scoreboard players set @s monkeyhue.entity.AIState 1
+execute if score @s monkeyhue.temp2 matches 3.. run function btl:b/door/hit/check_validity
 
 #--- State machine for the door, I guess ---
 
