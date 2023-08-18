@@ -1,0 +1,2 @@
+execute unless score #btl.postDragon btl.sum matches 1.. run tellraw @a {"text":"New enemies are appearing in the snowy regions of the Overworld!","color":"#83FFFF"}
+scoreboard players set #btl.postDragon btl.sum 1

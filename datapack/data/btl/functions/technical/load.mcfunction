@@ -48,5 +48,6 @@ scoreboard players set #btl.5000 monkeyhue.temp1 5000
 scoreboard players set #btl.10000 monkeyhue.temp1 10000
 
 #// Gamerules
+execute unless score #btl.postDragon btl.sum matches 0.. run scoreboard players set #btl.postDragon btl.sum 0
 scoreboard players set #btl.gamerule.doMobSpawning btl.sum 1
 scoreboard players set #btl.gamerule.spawnTime btl.sum 6000

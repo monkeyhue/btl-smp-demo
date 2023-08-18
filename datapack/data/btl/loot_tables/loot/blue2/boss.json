@@ -37,7 +37,7 @@
         {
           "type": "minecraft:loot_table",
 		  "weight": 1,
-          "name": "btl:item/super_fusion_catalyst"
+          "name": "btl:item/fusion_catalyst_super"
         }
       ]
     },
@@ -64,7 +64,7 @@
       ]
     },
     {
-      "rolls": 3,
+      "rolls": 4,
       "entries": [
         {
           "type": "minecraft:item",
@@ -77,6 +77,19 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:lapis_lazuli",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_shard",
           "functions": [
             {
               "function": "minecraft:set_count",
