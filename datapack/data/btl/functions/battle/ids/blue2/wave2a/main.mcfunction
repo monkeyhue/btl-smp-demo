@@ -1,8 +1,8 @@
 #--- Starting init ---
 execute unless score @s btl.w.tempID matches 2 run scoreboard players reset @s monkeyhue.time1
 execute unless score @s btl.w.tempID matches 2 run bossbar set btl:blue2 name {"translate": "battle.btl.wave.generic2"}
-execute unless score @s btl.w.tempID matches 2 run scoreboard players set @s btl.w.maxProgress 3000
-execute unless score @s btl.w.tempID matches 2 at @a[scores={btl.w.battleID=2}] run scoreboard players add @s btl.w.maxProgress 3000
+execute unless score @s btl.w.tempID matches 2 run scoreboard players set @s btl.w.maxProgress 4500
+execute unless score @s btl.w.tempID matches 2 at @a[scores={btl.w.battleID=2}] run scoreboard players add @s btl.w.maxProgress 1500
 execute unless score @s btl.w.tempID matches 2 store result bossbar btl:blue2 max run scoreboard players get @s btl.w.maxProgress
 execute unless score @s btl.w.tempID matches 2 run scoreboard players set @s btl.w.progress 400
 execute unless score @s btl.w.tempID matches 2 run scoreboard players set @s btl.w.maxMobs 12

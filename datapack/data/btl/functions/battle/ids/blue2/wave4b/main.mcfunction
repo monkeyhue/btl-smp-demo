@@ -15,7 +15,7 @@ execute at @a[scores={btl.w.battleID=2}] run scoreboard players add @s monkeyhue
 
 #// Peons
 execute if score @s btl.w.mobs matches ..3 if score @s monkeyhue.time1 matches 10.. run function btl:battle/ids/blue2/wave4b/summon
-execute if score @s monkeyhue.time1 matches 160.. if score @s btl.w.mobs < @s btl.w.maxMobs run function btl:battle/ids/blue2/wave4b/summon
+execute if score @s monkeyhue.time1 matches 100.. if score @s btl.w.mobs < @s btl.w.maxMobs run function btl:battle/ids/blue2/wave4b/summon
 
 #// Snowflakes
 scoreboard players add @s monkeyhue.time5 1

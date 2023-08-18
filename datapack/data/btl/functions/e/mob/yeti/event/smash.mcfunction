@@ -5,4 +5,4 @@ summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,Tags:["btl.entity","btl.temp","
 execute as @a[distance=..6] run damage @s 0.01 btl:knockback by @e[type=armor_stand,limit=1,distance=..10,tag=btl.shield_breaker,sort=nearest]
 execute as @a[distance=..6] run damage @s 0.01 btl:knockback by @e[type=armor_stand,limit=1,distance=..10,tag=btl.shield_breaker,sort=nearest]
 execute as @a[distance=..6] run damage @s 0.01 btl:knockback by @e[type=armor_stand,limit=1,distance=..10,tag=btl.shield_breaker,sort=nearest]
-execute as @a[distance=..6] run damage @s 20 btl:yeti/smash by @e[type=armor_stand,limit=1,distance=..10,tag=btl.shield_breaker,sort=nearest]
+execute as @a[distance=..6] run damage @s 22 btl:yeti/smash by @e[type=armor_stand,limit=1,distance=..10,tag=btl.shield_breaker,sort=nearest]

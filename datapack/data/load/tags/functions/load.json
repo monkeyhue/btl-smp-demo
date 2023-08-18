@@ -1,6 +1,5 @@
 {
-  "values": [
-    "btl:technical/load",
-	"#smithed.actionbar:load"
-  ]
+    "values": [
+	"btl:technical/load"
+	]
 }

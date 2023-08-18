@@ -2,8 +2,8 @@
 execute unless score @s btl.w.tempID matches 4 run scoreboard players reset @s monkeyhue.time1
 execute unless score @s btl.w.tempID matches 4 run scoreboard players reset @s monkeyhue.time5
 execute unless score @s btl.w.tempID matches 4 run bossbar set btl:blue2 name {"translate": "battle.btl.wave.generic3"}
-execute unless score @s btl.w.tempID matches 4 run scoreboard players set @s btl.w.maxProgress 4000
-execute unless score @s btl.w.tempID matches 4 at @a[scores={btl.w.battleID=2}] run scoreboard players add @s btl.w.maxProgress 4000
+execute unless score @s btl.w.tempID matches 4 run scoreboard players set @s btl.w.maxProgress 6000
+execute unless score @s btl.w.tempID matches 4 at @a[scores={btl.w.battleID=2}] run scoreboard players add @s btl.w.maxProgress 1000
 execute unless score @s btl.w.tempID matches 4 store result bossbar btl:blue2 max run scoreboard players get @s btl.w.maxProgress
 execute unless score @s btl.w.tempID matches 4 run scoreboard players set @s btl.w.progress 400
 execute unless score @s btl.w.tempID matches 4 run scoreboard players set @s btl.w.maxMobs 6

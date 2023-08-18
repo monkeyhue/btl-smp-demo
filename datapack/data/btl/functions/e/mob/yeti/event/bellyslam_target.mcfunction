@@ -1,7 +1,7 @@
 #// Do the cool thing!
 data modify storage btl:temp throw.pos1 set from entity @s Pos
 execute facing entity @p feet run tp @s ~ ~ ~ ~ ~
-teleport @s ^ ^ ^0.1
+teleport @s ^ ^-0.1 ^0.2
 data modify storage btl:temp throw.pos2 set from entity @s Pos
 
 #// This part is repeated for every snow thing summoned... yikes. Luckily it's only ran in this attack
@@ -18,8 +18,8 @@ scoreboard players operation #btl.throw2 monkeyhue.temp1 -= #btl.throw1 monkeyhu
 scoreboard players operation #btl.throw2 monkeyhue.temp2 -= #btl.throw1 monkeyhue.temp2
 scoreboard players operation #btl.throw2 monkeyhue.temp3 -= #btl.throw1 monkeyhue.temp3
 
-execute store result storage btl:temp throw.out[0] double 0.0015 run scoreboard players get #btl.throw2 monkeyhue.temp1
-execute store result storage btl:temp throw.out[1] double 0.0025 run scoreboard players get #btl.throw2 monkeyhue.temp2
-execute store result storage btl:temp throw.out[2] double 0.0015 run scoreboard players get #btl.throw2 monkeyhue.temp3
+execute store result storage btl:temp throw.out[0] double 0.002 run scoreboard players get #btl.throw2 monkeyhue.temp1
+execute store result storage btl:temp throw.out[1] double 0.003 run scoreboard players get #btl.throw2 monkeyhue.temp2
+execute store result storage btl:temp throw.out[2] double 0.002 run scoreboard players get #btl.throw2 monkeyhue.temp3
 
 data modify entity @s Motion set from storage btl:temp throw.out
