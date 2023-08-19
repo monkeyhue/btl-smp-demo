@@ -32,3 +32,6 @@ execute if score @s monkeyhue.entity.AIState matches 5 run function btl:b/door/s
 
 # Open Fail (when portalstones don't form a valid recipe)
 execute if score @s monkeyhue.entity.AIState matches 6 run function btl:b/door/state/6
+
+# Summon Boss
+execute if score @s monkeyhue.entity.AIState matches 7 run function btl:b/door/state/7

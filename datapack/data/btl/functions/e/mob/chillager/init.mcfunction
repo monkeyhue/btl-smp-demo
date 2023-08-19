@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------------------#
 
-scoreboard players set @s[tag=btl.w.tier0] monkeyhue.entity.maxHealth 32
+scoreboard players set @s[tag=btl.w.tier0] monkeyhue.entity.maxHealth 24
 scoreboard players set @s[tag=btl.w.tier0] btl.w.battleID -1
 scoreboard players set @s[tag=btl.w.tier1] monkeyhue.entity.maxHealth 32
 scoreboard players set @s[tag=btl.w.tier1] btl.w.battleID 1

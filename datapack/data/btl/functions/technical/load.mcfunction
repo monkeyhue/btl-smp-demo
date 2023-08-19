@@ -1,6 +1,7 @@
 #// Setup
 data modify storage btl:temp lootBasePower set value 100
 function btl:technical/tick
+function btl:technical/20t
 function btl:technical/monkeylib_load
 #tellraw @a {"text":"Battledoors Reloaded"}
 
@@ -49,5 +50,5 @@ scoreboard players set #btl.10000 monkeyhue.temp1 10000
 
 #// Gamerules
 execute unless score #btl.postDragon btl.sum matches 0.. run scoreboard players set #btl.postDragon btl.sum 0
-scoreboard players set #btl.gamerule.doMobSpawning btl.sum 1
-scoreboard players set #btl.gamerule.spawnTime btl.sum 6000
+execute unless score #btl.gamerule.doMobSpawning btl.sum matches 1.. run scoreboard players set #btl.gamerule.doMobSpawning btl.sum 1
+execute unless score #btl.gamerule.spawnTime btl.sum matches 0.. run scoreboard players set #btl.gamerule.spawnTime btl.sum 60

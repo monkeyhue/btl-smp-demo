@@ -15,7 +15,7 @@ scoreboard players operation @s monkeyhue.temp2 += @s btl.damage
 execute unless predicate btl:technical/on_fire run scoreboard players add @s monkeyhue.temp2 1
 
 #// Hurt Time
-execute if score @s monkeyhue.temp2 matches 1.. on vehicle on vehicle unless score @s monkeyhue.entity.hurtTime matches 0.. run scoreboard players set @s monkeyhue.entity.hurtTime 10
+execute if score @s monkeyhue.temp2 matches 2.. on vehicle on vehicle unless score @s monkeyhue.entity.hurtTime matches 0.. run scoreboard players set @s monkeyhue.entity.hurtTime 10
 
 #--- Calc health ---
 execute at @s on vehicle on vehicle run scoreboard players operation @s monkeyhue.entity.health -= @e[limit=1,sort=nearest,tag=btl.hitbox,dx=0] monkeyhue.temp2

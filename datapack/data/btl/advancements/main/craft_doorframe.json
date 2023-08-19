@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:furnace",
+      "nbt": "{CustomModelData:6540001}"
+    },
+    "title": "Knock Knock...",
+    "description": "Craft a Stone Doorframe and set up your Dimensional Door!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "btl:main/get_portalstone",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{btl:{id:\"stone_doorframe_1\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

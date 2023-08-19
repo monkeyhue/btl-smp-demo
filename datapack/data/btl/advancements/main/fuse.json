@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:recovery_compass",
+      "nbt": "{CustomModelData:6540006}"
+    },
+    "title": "Seeing Double",
+    "description": "Fuse two items together!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "btl:main/craft_fusion_core",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

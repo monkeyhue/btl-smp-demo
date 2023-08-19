@@ -16,6 +16,6 @@ execute if score @s monkeyhue.time2 matches 1 run playsound minecraft:entity.zom
 
 execute if score @s monkeyhue.time2 matches 16 positioned ^0 ^1 ^1 run function btl:e/mob/snow_zombie/event/hurt
 
-execute if score @s monkeyhue.time2 matches 28.. unless entity @p[distance=..2.5,gamemode=!creative,gamemode=!spectator] run scoreboard players set @s monkeyhue.entity.AIState 0
+execute if score @s monkeyhue.time2 matches 28.. unless entity @p[distance=..2.05,gamemode=!creative,gamemode=!spectator] run scoreboard players set @s monkeyhue.entity.AIState 0
 execute if score @s monkeyhue.time2 matches 28.. run effect clear @s slowness
 execute if score @s monkeyhue.time2 matches 28.. run scoreboard players reset @s monkeyhue.time2

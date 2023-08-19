@@ -12,6 +12,6 @@ execute unless score @s monkeyhue.tempAI matches 1 run scoreboard players set @s
 
 scoreboard players add @s monkeyhue.time2 1
 
-execute facing entity @p[gamemode=!creative,gamemode=!spectator] feet run tp @s ~ ~ ~ ~ ~
+execute if score @s monkeyhue.time2 matches ..17 facing entity @p[gamemode=!creative,gamemode=!spectator] feet run tp @s ~ ~ ~ ~ ~
 
 execute if score @s monkeyhue.time2 matches 25.. run scoreboard players set @s monkeyhue.entity.AIState 2

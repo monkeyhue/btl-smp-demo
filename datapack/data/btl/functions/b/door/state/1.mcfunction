@@ -7,5 +7,7 @@ execute unless score @s monkeyhue.tempAI matches 1 on passengers on passengers o
 execute unless score @s monkeyhue.tempAI matches 1 run scoreboard players set @s monkeyhue.tempAI 1
 
 scoreboard players add @s monkeyhue.time1 1
+execute if score @s monkeyhue.time1 matches 26 run playsound minecraft:block.wooden_door.open block @a ~ ~ ~ 1 1
 execute if score @s monkeyhue.time1 matches 28 run function btl:battle/init/announce
+advancement grant @a[scores={btl.w.battleID=1..}] only btl:main/start_battle
 execute if score @s monkeyhue.time1 matches 45.. run scoreboard players set @s monkeyhue.entity.AIState 2

@@ -22,4 +22,4 @@ execute if score @s monkeyhue.time3 matches 5 run playsound minecraft:block.snow
 execute if score @s monkeyhue.time3 matches 20 run playsound minecraft:block.snow.step hostile @a ~ ~ ~ 0.8 1
 execute if score @s monkeyhue.time3 matches 30.. run scoreboard players reset @s monkeyhue.time3
 
-execute if entity @p[distance=..2.25,gamemode=!creative,gamemode=!spectator] run scoreboard players set @s monkeyhue.entity.AIState 1
+execute if entity @p[distance=..1.25,gamemode=!creative,gamemode=!spectator] run scoreboard players set @s monkeyhue.entity.AIState 1

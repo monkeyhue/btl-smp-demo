@@ -17,6 +17,8 @@ execute if score @s btl.w.progress matches 200.. if score @s btl.w.waveID matche
 execute if score @s btl.w.progress matches 200.. if score @s btl.w.waveID matches 1 if score @s monkeyhue.rng.out matches 1 run scoreboard players add @s btl.w.waveID 1
 execute if score @s btl.w.progress matches 200.. run scoreboard players add @s btl.w.waveID 1
 
+execute if score @s btl.w.progress matches 170 if score @s btl.w.waveID matches 4 run scoreboard players set @s monkeyhue.entity.AIState 7
+
 #// End
 execute if score @s btl.w.progress matches 200.. run tag @s remove btl.door.buffer
 execute if score @s btl.w.progress matches 200.. run data remove storage btl:root activeBattles[{id:1}].kills

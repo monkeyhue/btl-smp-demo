@@ -33,4 +33,5 @@ particle snowflake ~ ~1.3 ~ 0.6 0.6 0.6 0 1
 
 # Die
 execute if score @s monkeyhue.entity.AIState matches -1 run function btl:e/mob/blizzy/state/die
-execute if score @s monkeyhue.time1 matches 1800.. run function btl:e/mob/despawn
+execute if score @s btl.w.battleID matches 1.. if score @s monkeyhue.time1 matches 1200.. run function btl:e/mob/despawn
+execute if score @s btl.w.battleID matches -1 if score @s monkeyhue.time1 matches 3000.. run function btl:e/mob/despawn

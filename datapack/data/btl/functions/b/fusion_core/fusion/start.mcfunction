@@ -1,4 +1,5 @@
 #--- Locate two valid pedestals ---
+execute on target run advancement grant @s only btl:main/fuse
 execute at @e[type=interaction,tag=btl.temp.fp_hasitem,distance=..10,limit=2,sort=nearest] run scoreboard players add @s monkeyhue.temp1 1
 scoreboard players set @s monkeyhue.time2 20
 

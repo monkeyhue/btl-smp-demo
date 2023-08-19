@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:furnace",
+      "nbt": "{CustomModelData:6540002}"
+    },
+    "title": "Back For Seconds",
+    "description": "Craft a Sturdy Doorframe to take on stronger battles",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "btl:main/start_battle",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{btl:{id:\"stone_doorframe_2\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

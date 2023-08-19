@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:recovery_compass",
+      "nbt": "{CustomModelData:6541001}"
+    },
+    "title": "Thinking With Portals",
+    "description": "Collect a portalstone from the newly spawning mobs",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "btl:main/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{btl:{portalstone:{}}}"
+          }
+        ]
+      }
+    }
+  }
+}

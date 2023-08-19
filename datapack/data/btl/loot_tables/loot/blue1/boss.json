@@ -1,15 +1,11 @@
 {
   "pools": [
     {
-      "rolls": 2,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:loot_table",
           "name": "btl:item/chilly_cowl"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "btl:item/icebound_edge"
         },
         {
           "type": "minecraft:loot_table",
@@ -22,7 +18,7 @@
       ]
     },
     {
-      "rolls": 2,
+      "rolls": 3,
       "entries": [
         {
           "type": "minecraft:loot_table",
@@ -42,6 +38,20 @@
           "type": "minecraft:loot_table",
 		  "weight": 1,
           "name": "btl:item/blue_portalstone"
+        },
+        {
+          "type": "minecraft:loot_table",
+		  "weight": 3,
+          "name": "btl:item/dimensional_log",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
         }
       ]
     },

@@ -16,7 +16,7 @@ execute unless score @s btl.w.credits matches 800.. run scoreboard players add @
 execute at @a[scores={btl.w.battleID=1}] run scoreboard players add @s monkeyhue.time1 1
 
 #// Peons
-execute if score @s btl.w.mobs matches ..5 if score @s monkeyhue.time1 matches 40.. run function btl:battle/ids/blue/wave3/summon
+execute if score @s btl.w.mobs matches ..5 if score @s monkeyhue.time1 matches 20.. run function btl:battle/ids/blue/wave3/summon
 execute if score @s btl.w.mobs matches 5..9 if score @s monkeyhue.time1 matches 100.. run function btl:battle/ids/blue/wave3/summon
 execute if score @s btl.w.mobs matches 10..13 if score @s monkeyhue.time1 matches 400.. run function btl:battle/ids/blue/wave3/summon
 execute if score @s monkeyhue.time1 matches 800.. if score @s btl.w.mobs < @s btl.w.maxMobs run function btl:battle/ids/blue/wave3/summon

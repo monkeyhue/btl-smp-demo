@@ -25,4 +25,5 @@ function btl:e/mob/main
 
 # Die
 execute if score @s monkeyhue.entity.AIState matches -1 run function btl:e/mob/chillager/state/die
-execute if score @s monkeyhue.time1 matches 1200.. run function btl:e/mob/despawn
+execute if score @s btl.w.battleID matches 1.. if score @s monkeyhue.time1 matches 1200.. run function btl:e/mob/despawn
+execute if score @s btl.w.battleID matches -1 if score @s monkeyhue.time1 matches 3000.. run function btl:e/mob/despawn

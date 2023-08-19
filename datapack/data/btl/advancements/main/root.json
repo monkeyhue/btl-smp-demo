@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:recovery_compass",
+      "nbt": "{CustomModelData:6540000}"
+    },
+    "title": "Battledoors",
+    "description": "Challenging battles and fearsome foes await!",
+    "background": "minecraft:textures/block/dark_oak_planks.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location"
+    }
+  }
+}
