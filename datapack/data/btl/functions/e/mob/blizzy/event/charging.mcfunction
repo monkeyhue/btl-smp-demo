@@ -1,1 +1,1 @@
-damage @p[distance=..2,gamemode=!creative,gamemode=!spectator] 10 btl:blizzy/charge by @s
+damage @p[distance=..2,gamemode=!creative,gamemode=!spectator] 9 btl:blizzy/charge by @s

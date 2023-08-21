@@ -46,10 +46,12 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
+		  "weight": 1,
           "name": "btl:item/fabric_of_reality"
         },
         {
           "type": "minecraft:loot_table",
+		  "weight": 2,
           "name": "btl:item/silver_nugget",
 		  "functions": [
             {

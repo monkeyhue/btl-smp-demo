@@ -13,8 +13,8 @@ execute unless score @s btl.w.tempID matches 1 run scoreboard players set @s btl
 #--- Mob Spawning ---
 scoreboard players add @s monkeyhue.time1 1
 execute at @a[scores={btl.w.battleID=1}] run scoreboard players add @s monkeyhue.time1 1
-execute if score @s btl.w.mobs matches ..3 if score @s monkeyhue.time1 matches 20.. run function btl:battle/ids/blue/wave1/summon
-execute if score @s btl.w.mobs matches 4..6 if score @s monkeyhue.time1 matches 160.. run function btl:battle/ids/blue/wave1/summon
+execute if score @s btl.w.mobs matches ..3 if score @s monkeyhue.time1 matches 10.. run function btl:battle/ids/blue/wave1/summon
+execute if score @s btl.w.mobs matches 4..6 if score @s monkeyhue.time1 matches 200.. run function btl:battle/ids/blue/wave1/summon
 execute if score @s btl.w.mobs matches 7..10 if score @s monkeyhue.time1 matches 400.. run function btl:battle/ids/blue/wave1/summon
 execute if score @s monkeyhue.time1 matches 800.. if score @s btl.w.mobs < @s btl.w.maxMobs run function btl:battle/ids/blue/wave1/summon
 

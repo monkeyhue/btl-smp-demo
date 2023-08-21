@@ -21,6 +21,7 @@ execute if score @s btl.w.battleID matches 2 run data modify storage btl:root ac
 execute if score @s btl.w.battleID matches 3 run data modify storage btl:root activeBattles[{id:3}].kills append value "chillager"
 
 #Kill
+summon experience_orb ~ ~0.2 ~ {Value:8}
 tp @s ~ -200 ~
 scoreboard players reset @s
 kill @s

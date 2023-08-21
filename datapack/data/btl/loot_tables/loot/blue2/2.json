@@ -31,7 +31,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "btl:item/blue_portalstone",
+          "name": "btl:item/fabric_of_reality",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -82,7 +82,7 @@
       "entries": [
 		{
           "type": "minecraft:loot_table",
-          "name": "btl:item/dimensional_log",
+          "name": "btl:item/marble_chunk",
           "functions": [
             {
               "function": "minecraft:set_count",

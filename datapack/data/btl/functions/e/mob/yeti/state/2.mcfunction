@@ -14,7 +14,7 @@ scoreboard players add @s monkeyhue.time2 1
 
 execute if score @s monkeyhue.time2 matches 1 run playsound btl:entity.yeti.grunt hostile @a ~ ~ ~ 1 1
 execute if score @s monkeyhue.time2 matches 9 run playsound minecraft:entity.player.attack.knockback hostile @a ~ ~ ~ 1 1
-execute if score @s monkeyhue.time2 matches 9 positioned ^ ^ ^1 run damage @p[distance=..4,gamemode=!creative,gamemode=!spectator] 12 btl:yeti/default by @s
+execute if score @s monkeyhue.time2 matches 9 positioned ^ ^ ^1 run damage @p[distance=..4,gamemode=!creative,gamemode=!spectator] 10 btl:yeti/default by @s
 
 execute if score @s monkeyhue.time2 matches 17.. run scoreboard players set @s monkeyhue.entity.AIState 1
 execute if score @s monkeyhue.time2 matches 17.. positioned ^ ^ ^1 if entity @p[distance=..4,gamemode=!creative,gamemode=!spectator] run scoreboard players set @s monkeyhue.entity.AIState 10

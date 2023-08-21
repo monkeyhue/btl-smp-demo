@@ -5,8 +5,9 @@ execute if score @s monkeyhue.rng.out matches ..79 run playsound minecraft:entit
 
 #--- Mob randomization
 execute if score @s monkeyhue.rng.out matches 0..9 run function btl:battle/ids/blue/summon/chillager
-execute if score @s monkeyhue.rng.out matches 10..69 run function btl:battle/ids/blue/summon/snow_skeleton
-execute if score @s monkeyhue.rng.out matches 70..79 run function btl:battle/ids/blue/summon/snowfiend
+execute if score @s monkeyhue.rng.out matches 10..39 run function btl:battle/ids/blue/summon/snow_skeleton
+execute if score @s monkeyhue.rng.out matches 40..72 run function btl:battle/ids/blue/summon/snow_zombie
+execute if score @s monkeyhue.rng.out matches 73..79 run function btl:battle/ids/blue/summon/snowfiend
 execute if score @s monkeyhue.rng.out matches 80..94 run summon item_display ~ ~ ~ {Tags:["btl.entity","btl.temp","btl.spawner.chillager"]}
 execute if score @s monkeyhue.rng.out matches 95..99 run summon item_display ~ ~ ~ {Tags:["btl.entity","btl.temp","btl.spawner.snowfiend"]}
 

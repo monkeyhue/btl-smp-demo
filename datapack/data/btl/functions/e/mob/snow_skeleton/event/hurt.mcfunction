@@ -1,1 +1,1 @@
-damage @p[distance=..2.5,gamemode=!creative,gamemode=!spectator] 8 btl:snow_skeleton by @s
+damage @p[distance=..2.5,gamemode=!creative,gamemode=!spectator] 7 btl:snow_skeleton by @s

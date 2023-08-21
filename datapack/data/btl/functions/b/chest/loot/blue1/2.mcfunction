@@ -1,5 +1,5 @@
 function btl:technical/rng/20
-scoreboard players add @s monkeyhue.rng.out 110
+scoreboard players add @s monkeyhue.rng.out 100
 execute store result storage btl:temp lootBasePower int 1.0 run scoreboard players get @s monkeyhue.rng.out
 
 playsound minecraft:entity.item.pickup block @a ~ ~ ~ 1 1

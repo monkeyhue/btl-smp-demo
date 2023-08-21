@@ -19,6 +19,7 @@ execute if score @s btl.w.battleID matches 2 run data modify storage btl:root ac
 execute if score @s btl.w.battleID matches 3 run data modify storage btl:root activeBattles[{id:3}].kills append value "blizzy"
 
 #Kill
+summon experience_orb ~ ~0.2 ~ {Value:12}
 tp @s ~ -200 ~
 scoreboard players reset @s
 execute on passengers on passengers run data modify entity @s Size set value 0b

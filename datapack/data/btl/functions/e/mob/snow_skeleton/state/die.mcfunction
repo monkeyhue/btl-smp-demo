@@ -18,6 +18,7 @@ execute if score @s btl.w.battleID matches 2 run data modify storage btl:root ac
 execute if score @s btl.w.battleID matches 3 run data modify storage btl:root activeBattles[{id:3}].kills append value "snow_skeleton"
 
 #Kill
+summon experience_orb ~ ~0.2 ~ {Value:5}
 tp @s ~ -200 ~
 scoreboard players reset @s
 kill @s

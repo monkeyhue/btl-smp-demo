@@ -18,21 +18,12 @@
       ]
     },
     {
-      "rolls": 3,
+      "rolls": 4,
       "entries": [
         {
           "type": "minecraft:loot_table",
-		  "weight": 2,
-          "name": "btl:item/marble_chunk",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
+		  "weight": 4,
+          "name": "btl:item/marble_chunk"
         },
         {
           "type": "minecraft:loot_table",
@@ -41,17 +32,13 @@
         },
         {
           "type": "minecraft:loot_table",
+		  "weight": 2,
+          "name": "btl:item/fusion_catalyst"
+        },
+        {
+          "type": "minecraft:loot_table",
 		  "weight": 3,
-          "name": "btl:item/dimensional_log",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
+          "name": "btl:item/dimensional_log"
         }
       ]
     },
@@ -60,7 +47,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-		  "weight": 2,
+		  "weight": 3,
           "name": "btl:item/fabric_of_reality"
         },
         {

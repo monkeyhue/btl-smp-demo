@@ -1,13 +1,13 @@
 #--- Starting init ---
 execute unless score @s btl.w.tempID matches 2 run scoreboard players reset @s monkeyhue.time1
 execute unless score @s btl.w.tempID matches 2 run bossbar set btl:blue name {"translate": "battle.btl.wave.generic2"}
-execute unless score @s btl.w.tempID matches 2 run scoreboard players set @s btl.w.maxProgress 3000
+execute unless score @s btl.w.tempID matches 2 run scoreboard players set @s btl.w.maxProgress 2500
 execute unless score @s btl.w.tempID matches 2 at @a[scores={btl.w.battleID=1}] run scoreboard players add @s btl.w.maxProgress 1500
 execute unless score @s btl.w.tempID matches 2 store result bossbar btl:blue max run scoreboard players get @s btl.w.maxProgress
 execute unless score @s btl.w.tempID matches 2 run scoreboard players set @s btl.w.progress 400
-execute unless score @s btl.w.tempID matches 2 run scoreboard players set @s btl.w.maxMobs 8
+execute unless score @s btl.w.tempID matches 2 run scoreboard players set @s btl.w.maxMobs 5
 execute unless score @s btl.w.tempID matches 2 run scoreboard players set @s btl.w.mobs 0
-execute unless score @s btl.w.tempID matches 2 at @a[scores={btl.w.battleID=1}] run scoreboard players add @s btl.w.maxMobs 4
+execute unless score @s btl.w.tempID matches 2 at @a[scores={btl.w.battleID=1}] run scoreboard players add @s btl.w.maxMobs 3
 execute unless score @s btl.w.tempID matches 2 run scoreboard players set @s btl.w.tempID 2
 
 #--- Mob Spawning ---
@@ -16,9 +16,8 @@ execute at @a[scores={btl.w.battleID=1}] run scoreboard players add @s monkeyhue
 
 #// Peons
 execute if score @s btl.w.mobs matches ..3 if score @s monkeyhue.time1 matches 20.. run function btl:battle/ids/blue/wave2a/summon
-execute if score @s btl.w.mobs matches 4..7 if score @s monkeyhue.time1 matches 160.. run function btl:battle/ids/blue/wave2a/summon
-execute if score @s btl.w.mobs matches 7..10 if score @s monkeyhue.time1 matches 400.. run function btl:battle/ids/blue/wave2a/summon
-execute if score @s monkeyhue.time1 matches 800.. if score @s btl.w.mobs < @s btl.w.maxMobs run function btl:battle/ids/blue/wave2a/summon
+execute if score @s btl.w.mobs matches 4..6 if score @s monkeyhue.time1 matches 200.. run function btl:battle/ids/blue/wave2a/summon
+execute if score @s monkeyhue.time1 matches 400.. if score @s btl.w.mobs < @s btl.w.maxMobs run function btl:battle/ids/blue/wave2a/summon
 
 #--- Tickly progress counting ---
 scoreboard players remove @s btl.w.progress 1

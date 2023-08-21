@@ -23,16 +23,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "btl:item/marble_chunk",
-		  "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
+          "name": "btl:item/marble_chunk"
         }
       ]
     },
